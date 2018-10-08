@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+    <asset>
+        <contributor>
+            <authoring_tool>SketchUp 15.3.331</authoring_tool>
+        </contributor>
+        <created>2016-02-26T22:17:14Z</created>
+        <modified>2016-02-26T22:17:14Z</modified>
+        <unit meter="0.0254" name="inch" />
+        <up_axis>Z_UP</up_axis>
+    </asset>
+    <library_visual_scenes>
+        <visual_scene id="ID1">
+            <node name="SketchUp">
+                <instance_geometry url="#ID2">
+                    <bind_material>
+                        <technique_common>
+                            <instance_material symbol="Material2" target="#ID3">
+                                <bind_vertex_input semantic="UVSET0" input_semantic="TEXCOORD" input_set="0" />
+                            </instance_material>
+                        </technique_common>
+                    </bind_material>
+                </instance_geometry>
+            </node>
+        </visual_scene>
+    </library_visual_scenes>
+    <library_geometries>
+        <geometry id="ID2">
+            <mesh>
+                <source id="ID8">
+                    <float_array id="ID12" count="108">80.70866 5.11811 92.12598 0 0 0 80.70866 0 0 0 5.11811 92.12598 64.96063 333.8583 0 0 0 0 0 333.8583 0 64.96063 240.6156 0 80.70866 0 0 80.70866 211.5358 0 80.70866 211.5358 0 80.70866 5.11811 92.12598 80.70866 0 0 80.70866 211.5358 92.12598 80.70866 5.11811 92.12598 0 333.8583 92.12598 0 5.11811 92.12598 64.96063 240.6156 92.12598 80.70866 211.5358 92.12598 64.96063 333.8583 92.12598 0 5.11811 92.12598 0 333.8583 0 0 0 0 0 333.8583 92.12598 0 333.8583 92.12598 64.96063 333.8583 0 0 333.8583 0 64.96063 333.8583 92.12598 64.96063 333.8583 0 64.96063 240.6156 92.12598 64.96063 240.6156 0 64.96063 333.8583 92.12598 64.96063 240.6156 0 80.70866 211.5358 92.12598 80.70866 211.5358 0 64.96063 240.6156 92.12598</float_array>
+                    <technique_common>
+                        <accessor count="36" source="#ID12" stride="3">
+                            <param name="X" type="float" />
+                            <param name="Y" type="float" />
+                            <param name="Z" type="float" />
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="ID9">
+                    <float_array id="ID13" count="108">0 -0.9984604 0.05547002 0 -0.9984604 0.05547002 0 -0.9984604 0.05547002 0 -0.9984604 0.05547002 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 -0 -0 1 -0 -0 1 -0 -0 1 -0 -0 -0 -0 1 -0 -0 1 -0 -0 1 -0 -0 1 -0 -0 1 -0 -0 1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 4.375221e-015 1 -0 4.375221e-015 1 -0 4.375221e-015 1 -0 4.375221e-015 1 -0 1 -0 -0 1 -0 -0 1 -0 -0 1 -0 -0 0.8793367 0.4762005 -0 0.8793367 0.4762005 -0 0.8793367 0.4762005 -0 0.8793367 0.4762005 -0</float_array>
+                    <technique_common>
+                        <accessor count="36" source="#ID13" stride="3">
+                            <param name="X" type="float" />
+                            <param name="Y" type="float" />
+                            <param name="Z" type="float" />
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="ID11">
+                    <float_array id="ID14" count="64">100.8858 115.3351 0 0 100.8858 0 0 115.3351 -81.20079 417.3228 0 417.3228 -81.20079 300.7695 -100.8858 0 -100.8858 264.4197 264.4197 0 6.397638 115.1575 264.4197 115.1575 100.8858 6.397638 0 6.397638 81.20079 300.7695 100.8858 264.4197 81.20079 417.3228 -6.397638 115.1575 -417.3228 0 -417.3228 115.1575 1.82588e-012 115.1575 -81.20079 0 1.82588e-012 0 -81.20079 115.1575 417.3228 0 300.7695 115.1575 300.7695 0 417.3228 115.1575 225.8098 0 184.4721 115.1575 184.4721 0 225.8098 115.1575</float_array>
+                    <technique_common>
+                        <accessor count="32" source="#ID14" stride="2">
+                            <param name="S" type="float" />
+                            <param name="T" type="float" />
+                        </accessor>
+                    </technique_common>
+                </source>
+                <vertices id="ID10">
+                    <input semantic="POSITION" source="#ID8" />
+                    <input semantic="NORMAL" source="#ID9" />
+                </vertices>
+                <triangles count="20" material="Material2">
+                    <input offset="0" semantic="VERTEX" source="#ID10" />
+                    <input offset="1" semantic="TEXCOORD" source="#ID11" />
+                    <p>0 0 1 1 2 2 1 1 0 0 3 3 4 4 5 1 6 5 5 1 4 4 7 6 5 1 7 6 8 7 8 7 7 6 9 8 10 9 11 10 12 1 11 10 10 9 13 11 14 12 15 5 16 13 15 5 14 12 17 14 17 14 14 12 18 15 19 16 15 5 17 14 20 17 21 18 22 1 21 18 20 17 23 19 24 20 25 21 26 22 25 21 24 20 27 23 28 24 29 25 30 26 29 25 28 24 31 27 32 28 33 29 34 30 33 29 32 28 35 31</p>
+                </triangles>
+            </mesh>
+        </geometry>
+    </library_geometries>
+    <library_materials>
+        <material id="ID3" name="Black_Dots_4">
+            <instance_effect url="#ID4" />
+        </material>
+    </library_materials>
+    <library_effects>
+        <effect id="ID4">
+            <profile_COMMON>
+                <newparam sid="ID6">
+                    <surface type="2D">
+                        <init_from>ID5</init_from>
+                    </surface>
+                </newparam>
+                <newparam sid="ID7">
+                    <sampler2D>
+                        <source>ID6</source>
+                    </sampler2D>
+                </newparam>
+                <technique sid="COMMON">
+                    <lambert>
+                        <diffuse>
+                            <texture texture="ID7" texcoord="UVSET0" />
+                        </diffuse>
+                    </lambert>
+                </technique>
+            </profile_COMMON>
+        </effect>
+    </library_effects>
+    <library_images>
+        <image id="ID5">
+            <init_from>ChairSide/Black_Dots_4.png</init_from>
+        </image>
+    </library_images>
+    <scene>
+        <instance_visual_scene url="#ID1" />
+    </scene>
+</COLLADA>

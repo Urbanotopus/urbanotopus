@@ -1,0 +1,13 @@
+# force LF EOL
+* text=auto eol=lf
+
+# Unity and 3D generated files
+*.meta linguist-generated
+*.unity linguist-generated
+*.asset linguist-generated
+*.prefab linguist-generated
+*.mat linguist-generated
+
+# sketchup files
+*.dae linguist-generated
+
