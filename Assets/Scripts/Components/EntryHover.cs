@@ -1,8 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-namespace Menu {
+namespace Components {
     public class EntryHover : MonoBehaviour {
         public Color HoverColor = Color.yellow;
         public Color DisabledColor = new Color(0.49f, 0.49f, 0.49f);
