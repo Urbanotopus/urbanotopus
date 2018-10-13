@@ -1,7 +1,9 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
-namespace MainMenu {
-    public class MainMenuEntryHover : MonoBehaviour {
+namespace Menu {
+    public class EntryHover : MonoBehaviour {
         public Color HoverColor = Color.yellow;
 
         private AudioSource _audioHoverSource;
@@ -9,7 +11,7 @@ namespace MainMenu {
         private Color _inactiveColor = Color.gray;
         private bool _isHovering;
 
-        private void Start () {
+        private void Start() {
             this._audioHoverSource = this.GetComponent<AudioSource>();
             this._renderer = this.GetComponent<Renderer>();
             Cursor.visible = true;
@@ -37,7 +39,7 @@ namespace MainMenu {
             this._isHovering = false;
         }
 
-        private void Update () {
+        private void Update() {
         }
     }
 }
