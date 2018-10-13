@@ -11,6 +11,15 @@ namespace Menu {
         private Color _inactiveColor = Color.gray;
         private bool _isHovering;
 
+        protected virtual void OnClick() {}
+
+        private void OnMouseUp() {
+            if (!this._isHovering) {
+                return;
+            }
+            this.OnClick();
+        }
+
         private void Start() {
             this._audioHoverSource = this.GetComponent<AudioSource>();
             this._renderer = this.GetComponent<Renderer>();

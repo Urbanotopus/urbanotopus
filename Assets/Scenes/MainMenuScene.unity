@@ -462,6 +462,47 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4abcd8877f8fc47a8b29177dbfb786, type: 3}
   m_IsPrefabAsset: 0
+--- !u!1 &263040466
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 263040467}
+  - component: {fileID: 263040468}
+  m_Layer: 0
+  m_Name: GlobalBackgroundGameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &263040467
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 263040466}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.100007, y: 3.9067292, z: 9.049286}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &263040468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 263040466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c73fe9800ec5ea4eab55d22350f4f51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DebugScene: {fileID: 102900000, guid: 368bee6114a8dcc458a189000d83da54, type: 3}
 --- !u!1 &542105743
 GameObject:
   m_ObjectHideFlags: 0
@@ -559,10 +600,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 542105743}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64d0e025267120446bfc42c0b1907e04, type: 3}
+  m_Script: {fileID: 11500000, guid: ae659dde921f31349b3e1c18823af7df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   HoverColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  SceneToLoad: {fileID: 102900000, guid: fcb9f404a0f3ebf47af74cbc56c8016c, type: 3}
 --- !u!65 &542105748
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1034,7 +1076,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 749214829}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64d0e025267120446bfc42c0b1907e04, type: 3}
+  m_Script: {fileID: 11500000, guid: b8df7ab3e6182c94e9792266c0f0648c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   HoverColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
@@ -2349,7 +2391,7 @@ GameObject:
   - component: {fileID: 2142765293}
   - component: {fileID: 2142765294}
   m_Layer: 0
-  m_Name: Tutoriel
+  m_Name: Didacticiel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2471,10 +2513,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2142765291}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64d0e025267120446bfc42c0b1907e04, type: 3}
+  m_Script: {fileID: 11500000, guid: ae659dde921f31349b3e1c18823af7df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   HoverColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  SceneToLoad: {fileID: 102900000, guid: 086b0d2d537b2104dac2f6863044a8ce, type: 3}
 --- !u!65 &2142765295
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2494,7 +2537,7 @@ TextMesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2142765291}
-  m_Text: Tutoriel
+  m_Text: Didacticiel
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
