@@ -1,6 +1,6 @@
 <p align='center'>
   <a href='https://urbanotopus.vanille.bid/'>
-    <img alt='logo' src='source/sphinx_static/images/octopus.png'/>
+    <img alt='logo' src='docs/sphinx_static/images/octopus.png'/>
   </a>
 </p>
 
