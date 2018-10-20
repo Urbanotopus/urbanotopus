@@ -470,9 +470,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 263040467}
+  - component: {fileID: 263040469}
   - component: {fileID: 263040468}
   m_Layer: 0
-  m_Name: GlobalBackgroundGameManager
+  m_Name: GameManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -503,6 +504,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DebugScene: {fileID: 102900000, guid: 368bee6114a8dcc458a189000d83da54, type: 3}
+--- !u!114 &263040469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 263040466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57d739d928b3455484aeb2607439212b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &542105743
 GameObject:
   m_ObjectHideFlags: 0
@@ -604,6 +616,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HoverColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  DisabledColor: {r: 0.34, g: 0.34, b: 0.34, a: 1}
   SceneToLoad: {fileID: 102900000, guid: fcb9f404a0f3ebf47af74cbc56c8016c, type: 3}
 --- !u!65 &542105748
 BoxCollider:
@@ -1080,6 +1093,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HoverColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  DisabledColor: {r: 0.34, g: 0.34, b: 0.34, a: 1}
 --- !u!65 &749214833
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1432,46 +1446,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1137793541
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1137793543}
-  - component: {fileID: 1137793542}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1137793542
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1137793541}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57d739d928b3455484aeb2607439212b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &1137793543
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1137793541}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.100007, y: 3.9067292, z: 9.049286}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 20
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1157050710
 GameObject:
   m_ObjectHideFlags: 0
@@ -1713,6 +1687,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HoverColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  DisabledColor: {r: 0.34, g: 0.34, b: 0.34, a: 1}
 --- !u!65 &1277090207
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2207,6 +2182,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HoverColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  DisabledColor: {r: 0.49056602, g: 0.49056602, b: 0.49056602, a: 1}
 --- !u!65 &1937479118
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2557,6 +2533,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HoverColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  DisabledColor: {r: 0.34, g: 0.34, b: 0.34, a: 1}
   SceneToLoad: {fileID: 102900000, guid: 086b0d2d537b2104dac2f6863044a8ce, type: 3}
 --- !u!65 &2142765295
 BoxCollider:
