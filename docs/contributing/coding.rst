@@ -16,6 +16,18 @@ une ou des modifications, menant à du travail et temps supplémentaire, et cela
 De plus, si votre changement apporte des changements ou des ajouts graphiques, veillez à ajouter une ou des captures
 d'écran ou une vidéo de démonstration.
 
+.. warning::
+    Veillez à avoir un message de commit propre et ne pas créer
+    une masse de commits pour des changements mineurs.
+    Quitte à réécrire ou modifier les commits afin de nettoyer
+    ce que vous avez fait.
+    `Plus d'informations <https://chris.beams.io/posts/git-commit/>`_.
+
+.. note::
+    Évitez de pull la branche ``master`` dans le but de mettre à jour
+    votre branche ou afin de résoudre des conflits. Préférez plutôt
+    un ``git rebase -i`` ce qui permettra de préserver un historique propre.
+
 
 Comment contrôler (review) les pull requests
 --------------------------------------------
