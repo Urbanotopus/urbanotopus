@@ -83,7 +83,7 @@ Exemple complet
         }
 
         /// <summary>The entry point for the application.</summary>
-        /// <param name="args"> A list of command line arguments.</param>
+        /// <param name="args">A list of command line arguments.</param>
         static int Main(System.String[] args) {
             // TODO: Add code to start application here.
             return 0;

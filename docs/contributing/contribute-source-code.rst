@@ -6,7 +6,7 @@ Ajouter et modifier du contenu dans nos projets
 Si vous souhaitez ajouter ou modifier du code ou n'importe quel autre contenu dans nos projets,
 vous devez tout d'abord commencer par **créer une issue** avant d'ouvrir une **pull request**
 (sauf si le changement est vraiment très mineur, comme une ou des typos,
-dans ce cas **une simple *pull request* est suffisante**).
+dans ce cas **une simple pull request est suffisante**).
 
 L'objectif de l'ouverture d'une issue avant l'ouverture d'une *pull request* est de pouvoir discuter
 du problème que vous souhaitez résoudre ou de la solution que vous proposez. Cela permet donc d'ouvrir une discussion
@@ -24,7 +24,7 @@ d'écran ou une vidéo de démonstration.
     `Plus d'informations <https://chris.beams.io/posts/git-commit/>`_.
 
 .. note::
-    Évitez de pull la branche ``master`` dans le but de mettre à jour
+    Évitez de *pull* la branche ``master`` dans le but de mettre à jour
     votre branche ou afin de résoudre des conflits. Préférez plutôt
     un ``git rebase -i`` ce qui permettra de préserver un historique propre.
 
