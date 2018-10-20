@@ -13,6 +13,9 @@ du problème que vous souhaitez résoudre ou de la solution que vous proposez. C
 avant d'ouvrir une *pull request* qui risque fortement d'être refusée car non convenable et donc demandera
 une ou des modifications, menant à du travail et temps supplémentaire, et cela salira l'historique ``git`` du projet.
 
+De plus, si votre changement apporte des changements ou des ajouts graphiques, veillez à ajouter une ou des captures
+d'écran ou une vidéo de démonstration.
+
 
 Comment contrôler (review) les pull requests
 --------------------------------------------
