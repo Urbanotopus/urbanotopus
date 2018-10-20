@@ -11,3 +11,4 @@ discuter de modifications et de nouvelles fonctionnalités.
    contributing/editorconfig
    contributing/coding-style
    contributing/naming
+   contributing/coding
