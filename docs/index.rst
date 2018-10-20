@@ -13,4 +13,5 @@ Bienvenue sur la documentation d'urbanotopus's !
     introduction
     architecture
     contributing
+    deployment
     ressources

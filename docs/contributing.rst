@@ -1,5 +1,5 @@
-Contribuer
-==========
+Guides de contribution
+======================
 
 Merci d'utiliser le système de tickets (issues) et de pull requests
 pour rapporter des problèmes, suggérer et
@@ -12,3 +12,5 @@ discuter de modifications et de nouvelles fonctionnalités.
    contributing/coding-style
    contributing/naming
    contributing/coding
+   contributing/documenting-source-code
+   contributing/documenting-project
