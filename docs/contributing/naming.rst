@@ -36,7 +36,7 @@ CSharp (C#) et Javascript/ Typescript
 
 1. Les variables, nom de fonctions et méthodes doivent commencer par une minuscles et suivre le format ``camelCase`` ;
 2. Les constantes doivent être écrites en majuscules et les mots séparés par des underscores ;
-3. Les noms de classes et d'objets doivent commencer par une majuscule et suivre le format ``CamelCase`` ;
+3. Les noms de classes, d'objets et de propriétés doivent commencer par une majuscule et suivre le format ``CamelCase`` ;
 4. Les méthodes et variables privées doivent commencer par un underscore.
 
 
@@ -45,7 +45,7 @@ CSharp (C#) et Javascript/ Typescript
     const int CONSTANT = 123;
 
     private class HelloWorld {
-        public int somethingPublic = 123;
+        public int SomethingPublic = 123;
 
         private const _PRIVATE_CONSTANT = 123;
         private int _privateProp;

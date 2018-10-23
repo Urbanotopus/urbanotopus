@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Bienvenue sur la documentation d'urbanotopus's !
-================================================
+Bienvenue sur la documentation d'urbanotopus !
+==============================================
 
 .. toctree::
     :maxdepth: 2
@@ -13,4 +13,5 @@ Bienvenue sur la documentation d'urbanotopus's !
     introduction
     architecture
     contributing
+    deployment
     ressources
