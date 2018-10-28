@@ -440,6 +440,11 @@ Prefab:
       propertyPath: sourceText.Array.data[0]
       value: 
       objectReference: {fileID: 4900000, guid: 6b44f042c1cbdef40bdfd6ac1be41890, type: 3}
+    - target: {fileID: 114353624427399716, guid: 9e0841b82a4ebcd438730d23886e17e6,
+        type: 2}
+      propertyPath: startAutomatically
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e0841b82a4ebcd438730d23886e17e6, type: 2}
   m_IsPrefabAsset: 0
@@ -538,6 +543,7 @@ GameObject:
   - component: {fileID: 1699893074}
   - component: {fileID: 1699893073}
   - component: {fileID: 1699893072}
+  - component: {fileID: 1699893075}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -590,3 +596,14 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1699893075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1699893071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50fc7d41a1894cceaf0060ce610eed0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
