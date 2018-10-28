@@ -13,5 +13,6 @@ Bienvenue sur la documentation d'urbanotopus !
     introduction
     architecture
     contributing
+    development_guides
     deployment
-    ressources
+    resources
