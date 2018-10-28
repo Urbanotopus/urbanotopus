@@ -1,8 +1,8 @@
-
 title: Start
 tags: 
 colorID: 0
 position: 0,0
+parent: 
 ---
 
 // sets background image to sprite called "bg_office"

@@ -45,3 +45,7 @@ sysinfo.txt
 
 node_modules/
 build/
+
+# Ignore the generated Merino files
+Assets/Merino/Editor/
+
