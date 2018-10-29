@@ -11,13 +11,19 @@ créez un nouveau script Yarn ayant pour extension de fichier ``.yarn.txt`` (**i
 Modifier un script (Yarn)
 -------------------------
 
+.. figure:: ../sphinx_static/images/development_guides/merino_menu.png
+    :scale: 55%
+    :align: right
+    :alt: Capture d'écran du menu Unity
+    :figclass: text-center small
+
+    Capture d'écran du menu Unity
+
 Les scripts sont écrits dans le langage `Yarn <https://github.com/thesecretlab/YarnSpinner>`_
 (`documentation <https://github.com/thesecretlab/YarnSpinner/tree/master/Documentation>`_).
 
-Afin d'éditer les nodes et scripts, utilisez l'éditeur **Merino** qui est inclut avec le projet dans le menu *Window*:
+Afin d'éditer les nodes et scripts, utilisez l'éditeur **Merino** qui est inclut avec le projet dans le menu *Window* :
 ``Window > Merino (Yarn Editor)``.
-
-.. image:: https://i.imgur.com/BKsIDcd.png
 
 
 Les dialogues
