@@ -37,7 +37,7 @@ namespace Managers {
             }
 
             // Set the dialogue to the given Yarn script resource and start the dialogue
-            dialogueRunner.sourceText = new []{CurrentYarnScript};
+            dialogueRunner.AddScript(CurrentYarnScript.text, CurrentYarnScript.name);
             dialogueRunner.StartDialogue();
         }
     }

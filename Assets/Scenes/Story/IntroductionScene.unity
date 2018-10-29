@@ -237,7 +237,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28a1cd5e168d4f919385418a30193dbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  YarnSceneToLoad: {fileID: 4900000, guid: 6b44f042c1cbdef40bdfd6ac1be41890, type: 3}
+  YarnSceneToLoad: {fileID: 4900000, guid: 0e34918b2335b73489efee35ded83feb, type: 3}
 --- !u!1 &713040578
 GameObject:
   m_ObjectHideFlags: 0

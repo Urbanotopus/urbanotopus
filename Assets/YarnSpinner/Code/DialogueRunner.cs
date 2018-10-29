@@ -140,8 +140,8 @@ namespace Yarn.Unity
         }
 
         /// Add a string of text to a script
-        public void AddScript(string text) {
-            dialogue.LoadString(text);
+        public void AddScript(string text, string fileName = "<input>") {
+            dialogue.LoadString(text, fileName);
         }
 
         /// Add a TextAsset to a script
