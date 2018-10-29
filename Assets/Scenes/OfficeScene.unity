@@ -427,6 +427,7 @@ GameObject:
   - component: {fileID: 116444566}
   - component: {fileID: 116444565}
   - component: {fileID: 116444568}
+  - component: {fileID: 116444569}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -491,6 +492,105 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ManagedContainerCanvas: {fileID: 1792737544}
+  CloseableCanvasToManage:
+  - {fileID: 725896120}
+  CloseCanvasButtons:
+  - {fileID: 1037328397}
+--- !u!82 &116444569
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 116444564}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 82c1e79dc157f0b45ad3385fd7c9a4fb, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.567
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &116957163
 GameObject:
   m_ObjectHideFlags: 0
@@ -1446,8 +1546,8 @@ GameObject:
   m_Component:
   - component: {fileID: 418024354}
   - component: {fileID: 418024357}
-  - component: {fileID: 418024356}
   - component: {fileID: 418024355}
+  - component: {fileID: 418024356}
   m_Layer: 5
   m_Name: Twitter Button
   m_TagString: Untagged
@@ -1512,7 +1612,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 418024356}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 725896117}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &418024356
@@ -2587,8 +2698,8 @@ GameObject:
   m_Component:
   - component: {fileID: 988340898}
   - component: {fileID: 988340901}
-  - component: {fileID: 988340900}
   - component: {fileID: 988340899}
+  - component: {fileID: 988340900}
   m_Layer: 5
   m_Name: Services Button
   m_TagString: Untagged
@@ -2778,7 +2889,7 @@ GameObject:
   - component: {fileID: 1037328398}
   - component: {fileID: 1037328397}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Close Canvas Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4445,8 +4556,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1973899920}
   - component: {fileID: 1973899923}
-  - component: {fileID: 1973899922}
   - component: {fileID: 1973899921}
+  - component: {fileID: 1973899922}
   m_Layer: 5
   m_Name: Story Button
   m_TagString: Untagged
@@ -4493,7 +4604,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.01886791, g: 0.0073869643, b: 0.0073869643, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1

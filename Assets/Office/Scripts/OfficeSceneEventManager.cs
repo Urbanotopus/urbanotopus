@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using Components;
 using UnityEngine;
 using UnityEngine.UI;
@@ -20,6 +20,18 @@ namespace Office.Scripts {
         /// and toggle the visibility whenever the user requests it.
         /// </summary>
         public GameObject ManagedContainerCanvas;
+
+        /// <summary>
+        /// An array of closeable canvas that will get closed whenever
+        /// the user asks to do so, thus, by clicking on "close" or the Cancel (escape) button.
+        /// </summary>
+        public Canvas[] CloseableCanvasToManage;
+
+        /// <summary>
+        /// The button(s) that will be used to close canvas to
+        /// which need to get proper events assigned to.
+        /// </summary>
+        public Button[] CloseCanvasButtons;
 
         /// <summary>
         /// <see cref="ManagedContainerCanvas"/> buttons colors to be set.
@@ -48,10 +60,27 @@ namespace Office.Scripts {
         }
 
         /// <summary>
+        /// Close all closeable canvas if, and only if the buttons are hidden.
+        /// </summary>
+        private void CloseAllCanvas() {
+            if (this.ManagedContainerCanvas.activeSelf) {
+                return;
+            }
+
+            // Hide any canvas parent of this component
+            foreach (var canvas in CloseableCanvasToManage) {
+                canvas.gameObject.SetActive(false);
+            }
+
+            // Show the buttons back to the user
+            this.ToggleInterface(true);
+        }
+
+        /// <summary>
         /// Whenever the user clicks on a button of <see cref="ManagedContainerCanvas"/>,
         /// is toggle <see cref="ManagedContainerCanvas"/>'s visibility.
         /// </summary>
-        private void OnButtonClick() {
+        private void OnCanvasOpenerButtonClick() {
             this.ToggleInterface(false);
         }
 
@@ -74,6 +103,10 @@ namespace Office.Scripts {
         ///         Setting-up <see cref="ManagedContainerCanvas"/>
         ///         buttons events (click and hover) and colors.
         ///     </item>
+        ///     <item>
+        ///         Setting-up <see cref="CloseCanvasButtons"/>
+        ///         buttons click events to close every closeable canvas.
+        ///     </item>
         /// </list>
         ///
         /// </summary>
@@ -93,9 +126,13 @@ namespace Office.Scripts {
 
             // Set-up buttons events (click and hover) and colors
             foreach (var childButton in managedButtons) {
-                childButton.onClick.AddListener(this.OnButtonClick);
+                childButton.onClick.AddListener(this.OnCanvasOpenerButtonClick);
                 childButton.onHover.AddListener(this._onButtonHover);
                 childButton.colors = ButtonsColorBlock;
+            }
+
+            foreach (var closeButton in this.CloseCanvasButtons) {
+                closeButton.onClick.AddListener(this.CloseAllCanvas);
             }
         }
 
@@ -104,19 +141,9 @@ namespace Office.Scripts {
         /// is hidden, we show it again and hide the other opened canvas.
         /// </summary>
         private void Update () {
-            // TODO: we should handle the cancels button components as well
-            //       by setting up click events on them
-            if (!Input.GetButtonUp("Cancel") || this.ManagedContainerCanvas.activeSelf) {
-                return;
+            if (Input.GetButtonUp("Cancel")) {
+                this.CloseAllCanvas();
             }
-
-            // Hide any canvas parent of this component
-            foreach (var canvas in this.GetComponentsInParent<Canvas>()) {
-                canvas.gameObject.SetActive(false);
-            }
-
-            // Show the buttons back to the user
-            this.ToggleInterface(true);
         }
     }
 }
