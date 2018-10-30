@@ -7,6 +7,38 @@
 <h1 align='center'>Urbanotopus Game and Docs</h1>
 <p align='center'>Game sources and documentation for Urbanotopus.</p>
 
+## Documentation
+<!-- Begin TOC --><div class="toctree-wrapper compound">
+<p class="caption"><span class="caption-text">Contenu</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="https://urbanotopus.readthedocs.io/en/latest/introduction.html">Le jeu</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="https://urbanotopus.readthedocs.io/en/latest/introduction.html#le-fonctionnement">Le fonctionnement</a></li>
+<li class="toctree-l2"><a class="reference internal" href="https://urbanotopus.readthedocs.io/en/latest/introduction.html#le-deroulement-dune-partie">Le déroulement d’une partie</a></li>
+<li class="toctree-l2"><a class="reference internal" href="https://urbanotopus.readthedocs.io/en/latest/introduction.html#le-parametrage-dune-partie">Le paramétrage d’une partie</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="https://urbanotopus.readthedocs.io/en/latest/architecture.html">Architecture</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="https://urbanotopus.readthedocs.io/en/latest/architecture.html#les-choix-technologiques">Les choix technologiques</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="https://urbanotopus.readthedocs.io/en/latest/contributing.html">Guides de contribution</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="https://urbanotopus.readthedocs.io/en/latest/contributing/editorconfig.html">EditorConfig</a></li>
+<li class="toctree-l2"><a class="reference internal" href="https://urbanotopus.readthedocs.io/en/latest/contributing/coding-style.html">Style de codage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="https://urbanotopus.readthedocs.io/en/latest/contributing/naming.html">Convention de nommage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="https://urbanotopus.readthedocs.io/en/latest/contributing/contribute-source-code.html">Contribuer au code</a></li>
+<li class="toctree-l2"><a class="reference internal" href="https://urbanotopus.readthedocs.io/en/latest/contributing/documenting-source-code.html">Documenter le code source</a></li>
+<li class="toctree-l2"><a class="reference internal" href="https://urbanotopus.readthedocs.io/en/latest/contributing/documenting-project.html">Documenter le projet et fonctionnalités</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="https://urbanotopus.readthedocs.io/en/latest/development_guides.html">Guides de développement</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="https://urbanotopus.readthedocs.io/en/latest/development_guides/visual-novel-scenes.html">Scènes de Visual Novel</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="https://urbanotopus.readthedocs.io/en/latest/deployment.html">Déploiement</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://urbanotopus.readthedocs.io/en/latest/resources.html">Ressources</a></li>
+</ul>
+</div><!-- End TOC -->
+
 
 ## How does this repository works
 1. Pull requests are created to write changes to master;
