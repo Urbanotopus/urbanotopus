@@ -19,12 +19,10 @@ namespace Components {
         /// </summary>
         public UnityEvent onHover // noqa
         {
-            get
-            {
+            get {
                 return this._onHover;
             }
-            set
-            {
+            set {
                 this._onHover = value;
             }
         }
