@@ -26,6 +26,12 @@ namespace Components {
             }
         }
 
+        /// <summary>
+        /// Yarn command to registers taken choices to a serializable chapter history.
+        /// </summary>
+        /// <param name="chapterId">The current Yarn chapter's ID.</param>
+        /// <param name="questionId">The current question's ID.</param>
+        /// <param name="answerId">The chosen answer's ID.</param>
         [YarnCommand("register_choice")]
         public void RegisterChoice(int chapterId, int questionId, int answerId) {
             ChoiceHistory.RegisterChoice(chapterId, questionId, answerId);
