@@ -20,7 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Story/IntroductionScene.unity
     guid: fcb9f404a0f3ebf47af74cbc56c8016c
-  - enabled: 1
-    path: Assets/Scenes/WorkingDeskScene.unity
-    guid: 63e608bd1bd92af4fa290ffad7c159ac
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}
