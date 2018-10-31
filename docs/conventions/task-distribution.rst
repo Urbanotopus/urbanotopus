@@ -2,14 +2,14 @@ La répartition des tâches
 =========================
 
 
-Les deadlines
--------------
-Nous avons une deadline (date limite) pour chaque ensemble
-de tâches définies. Par exemple, dans le
+Les dates limites
+-----------------
+Une date limite (deadline) est définie pour chaque ensemble de tâches.
+Par exemple, dans le
 `tableau de bord d'octobre à novembre <https://docs.google.com/spreadsheets/d/1ssWvanr6t2i7n3NQZzfvbAibnp2f_unJ5_dDhjydA1w/>`_,
-nous avons défini que la date limite est le 5 novembre 2018.
+il est défini que cet ensemble doit être prêt pour le 5 novembre 2018.
 
-À partir du fait que cette date limite est définie, nous imposons
+À partir de la date d'échéance d'un ensemble de tâches, nous imposons
 que tous les sous-ensembles de tâches aient leur date limite qui
 soit estimée par rapport à la date limite de l'ensemble parent,
 en essayant de garder une marge de retard entre les deux dates en cas d'imprévues.
@@ -25,8 +25,8 @@ donc que d'autres qu'il y a plus de cinq tâches prioritaires non dépendantes. 
 de donner la possibilité aux personnes de l'équipe de pouvoir s'assigner eux-même aux tâches
 n'ayant personne d'assigner, grâce à leurs variables :
 
-- Disponibilité (Université, santé, etc.) ;
-- Difficulté ;
+- Disponibilités (Université, santé, etc.) ;
+- Difficultés ;
 - Apprentissage sur le tas.
 
 L'objectif principal de cette méthode de travail est d'empêcher toute charge écrasante envers
