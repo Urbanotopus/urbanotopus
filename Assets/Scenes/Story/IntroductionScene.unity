@@ -237,7 +237,53 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28a1cd5e168d4f919385418a30193dbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  YarnSceneToLoad: {fileID: 4900000, guid: 0e34918b2335b73489efee35ded83feb, type: 3}
+  YarnSceneToLoad: {fileID: 4900000, guid: b2cb858795c2d2a49b336ca31ee94406, type: 3}
+--- !u!1001 &551815454
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4755515024198590, guid: 361cb013b8f4b8b48ae0fce86f8d13e1, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 227.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4755515024198590, guid: 361cb013b8f4b8b48ae0fce86f8d13e1, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 170.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4755515024198590, guid: 361cb013b8f4b8b48ae0fce86f8d13e1, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4755515024198590, guid: 361cb013b8f4b8b48ae0fce86f8d13e1, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4755515024198590, guid: 361cb013b8f4b8b48ae0fce86f8d13e1, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4755515024198590, guid: 361cb013b8f4b8b48ae0fce86f8d13e1, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4755515024198590, guid: 361cb013b8f4b8b48ae0fce86f8d13e1, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4755515024198590, guid: 361cb013b8f4b8b48ae0fce86f8d13e1, type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1158291147030378, guid: 361cb013b8f4b8b48ae0fce86f8d13e1, type: 2}
+      propertyPath: m_Name
+      value: Globals
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 361cb013b8f4b8b48ae0fce86f8d13e1, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &713040578
 GameObject:
   m_ObjectHideFlags: 0
