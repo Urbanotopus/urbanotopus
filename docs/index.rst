@@ -14,5 +14,6 @@ Bienvenue sur la documentation d'urbanotopus !
     architecture
     conventions
     contributing
+    development_guides
     deployment
-    ressources
+    resources
