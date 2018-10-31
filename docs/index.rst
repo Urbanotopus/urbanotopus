@@ -12,6 +12,7 @@ Bienvenue sur la documentation d'urbanotopus !
 
     introduction
     architecture
+    conventions
     contributing
     deployment
     ressources
