@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using TChapterChoices = System.Collections.Generic.Dictionary<int, int>;
 
 namespace Managers {
     [Serializable]
@@ -8,8 +9,8 @@ namespace Managers {
         /// Dictionary storing the list of choices (<code>question_id: answer_id</code>)
         /// per chapter.
         /// </summary>
-        private static Dictionary<int, Dictionary<int, int>> _chapterChoices =
-            new Dictionary<int, Dictionary<int, int>>();
+        private static Dictionary<int, TChapterChoices> _chapterChoices =
+            new Dictionary<int, TChapterChoices>();
 
         /// <summary>
         /// Registers taken choices to a serializable chapter history.
@@ -18,7 +19,7 @@ namespace Managers {
         /// <param name="questionId">The current question ID.</param>
         /// <param name="answerId">The chosen answer ID.</param>
         public static void RegisterChoice(int chapterId, int questionId, int answerId) {
-            Dictionary<int, int> choices;
+            TChapterChoices choices;
 
             // if the chapter is already registered, just retrieve it
             if (_chapterChoices.ContainsKey(chapterId)) {
@@ -27,7 +28,7 @@ namespace Managers {
             else {
                 // if the chapter is yet to be registered,
                 // create its storage
-                choices = new Dictionary<int, int>();
+                choices = new TChapterChoices();
                 _chapterChoices[chapterId] = choices;
             }
 
