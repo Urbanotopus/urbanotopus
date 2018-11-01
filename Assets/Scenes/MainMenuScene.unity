@@ -2183,6 +2183,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HoverColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   DisabledColor: {r: 0.49056602, g: 0.49056602, b: 0.49056602, a: 1}
+  MainScene: {fileID: 102900000, guid: 35782f035515db04eb569eb7c8e749fa, type: 3}
 --- !u!65 &1937479118
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2251,6 +2252,34 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!1 &2033286874 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1158291147030378, guid: 361cb013b8f4b8b48ae0fce86f8d13e1,
+    type: 2}
+  m_PrefabInternal: {fileID: 2140152016}
+--- !u!114 &2033286875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2033286874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c73fe9800ec5ea4eab55d22350f4f51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DebugScene: {fileID: 102900000, guid: 368bee6114a8dcc458a189000d83da54, type: 3}
+--- !u!114 &2033286876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2033286874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57d739d928b3455484aeb2607439212b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2078704481
 Prefab:
   m_ObjectHideFlags: 0
