@@ -86,6 +86,13 @@ namespace Managers {
         }
 
         /// <summary>
+        /// Reset the current game state.
+        /// </summary>
+        public static void ResetData() {
+            _currentGame = new GameState();
+        }
+
+        /// <summary>
         /// Retrieve the current game state object.
         /// </summary>
         /// <returns></returns>

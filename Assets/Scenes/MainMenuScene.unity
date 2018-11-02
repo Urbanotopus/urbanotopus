@@ -612,11 +612,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 542105743}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ae659dde921f31349b3e1c18823af7df, type: 3}
+  m_Script: {fileID: 11500000, guid: 8dff77f7888d46b29474a6277557ce48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   HoverColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
-  DisabledColor: {r: 0.34, g: 0.34, b: 0.34, a: 1}
+  DisabledColor: {r: 0.49, g: 0.49, b: 0.49, a: 1}
   SceneToLoad: {fileID: 102900000, guid: fcb9f404a0f3ebf47af74cbc56c8016c, type: 3}
 --- !u!65 &542105748
 BoxCollider:

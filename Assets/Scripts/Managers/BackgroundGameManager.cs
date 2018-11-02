@@ -67,10 +67,12 @@ namespace Managers {
             }
             else if (Input.GetKey(KeyCode.F7)) {
                 SaveGameManager.LoadLatest();
-                Debug.Log(SaveGameManager.GetCurrentGame().ChoiceHistory);
             }
             else if (Input.GetKey(KeyCode.F8)) {
                 File.Delete(SaveGameManager.SavePath);
+            }
+            else if (Input.GetKey(KeyCode.F9)) {
+                Debug.Log(SaveGameManager.GetCurrentGame().ChoiceHistory);
             }
         }
     }
