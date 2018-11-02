@@ -84,5 +84,13 @@ namespace Managers {
                 _currentGame = (GameState) new BinaryFormatter().Deserialize(fp);
             }
         }
+
+        /// <summary>
+        /// Retrieve the current game state object.
+        /// </summary>
+        /// <returns></returns>
+        public static GameState GetCurrentGame() {
+            return _currentGame;
+        }
     }
 }

@@ -5,6 +5,6 @@ namespace Managers {
     /// </summary>
     [System.Serializable]
     public class GameState {
-
+        public ChoiceHistory ChoiceHistory = new ChoiceHistory();
     }
 }

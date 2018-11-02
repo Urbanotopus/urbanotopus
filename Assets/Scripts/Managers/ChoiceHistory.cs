@@ -9,7 +9,7 @@ namespace Managers {
         /// Dictionary storing the list of choices (<code>question_id: answer_id</code>)
         /// per chapter.
         /// </summary>
-        private static Dictionary<int, TChapterChoices> _chapterChoices =
+        private Dictionary<int, TChapterChoices> _chapterChoices =
             new Dictionary<int, TChapterChoices>();
 
         /// <summary>
@@ -18,22 +18,40 @@ namespace Managers {
         /// <param name="chapterId">The current chapter ID.</param>
         /// <param name="questionId">The current question ID.</param>
         /// <param name="answerId">The chosen answer ID.</param>
-        public static void RegisterChoice(int chapterId, int questionId, int answerId) {
+        public void RegisterChoice(int chapterId, int questionId, int answerId) {
             TChapterChoices choices;
 
             // if the chapter is already registered, just retrieve it
-            if (_chapterChoices.ContainsKey(chapterId)) {
-                choices = _chapterChoices[chapterId];
+            if (this._chapterChoices.ContainsKey(chapterId)) {
+                choices = this._chapterChoices[chapterId];
             }
             else {
                 // if the chapter is yet to be registered,
                 // create its storage
                 choices = new TChapterChoices();
-                _chapterChoices[chapterId] = choices;
+                this._chapterChoices[chapterId] = choices;
             }
 
             // register the answer
             choices[questionId] = answerId;
+        }
+
+        /// <summary>
+        /// Represents a choice history object to a string object.
+        /// </summary>
+        /// <returns></returns>
+        public override string ToString() {
+            var result = string.Empty;
+
+            foreach (var chapter in this._chapterChoices) {
+                var formattedQuestion = string.Empty;
+                foreach (var question in chapter.Value) {
+                    formattedQuestion += string.Format("[{0}, {1}], ", question.Key, question.Value);
+                }
+                result += string.Format("Chapter #{0}: {1}", chapter.Key, formattedQuestion);
+            }
+
+            return result;
         }
     }
 }

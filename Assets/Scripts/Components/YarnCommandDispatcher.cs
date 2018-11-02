@@ -34,7 +34,8 @@ namespace Components {
         /// <param name="answerId">The chosen answer's ID.</param>
         [YarnCommand("register_choice")]
         public void RegisterChoice(int chapterId, int questionId, int answerId) {
-            ChoiceHistory.RegisterChoice(chapterId, questionId, answerId);
+            SaveGameManager.GetCurrentGame().ChoiceHistory.RegisterChoice(
+                chapterId, questionId, answerId);
         }
     }
 }
