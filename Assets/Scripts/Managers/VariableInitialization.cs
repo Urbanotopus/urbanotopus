@@ -4,11 +4,10 @@ using UnityEngine;
 
 namespace Managers
 {
-    /// <summary> 
+    /// <summary>
     /// Ensures the uniqueness of the script manager.
     /// </summary>
-    public class VariableInitialization : MonoBehaviour
-    {
+    public class VariableInitialization : MonoBehaviour {
         private GameData _gameData;
 
         /// <summary>
@@ -23,24 +22,19 @@ namespace Managers
         ///
         /// Otherwise, it flags itself as to be killed (destroyed).
         /// </summary>
-        private void Awake()
-        {
-            if (!_created)
-            {
+        private void Awake() {
+            if (!_created) {
                 DontDestroyOnLoad(this.gameObject);
                 _created = true;
             }
-            else
-            {
+            else {
                 Destroy(this.gameObject);
             }
         }
 
-        private void Start()
-        {
+        private void Start() {
             this._gameData= new GameData();
         }
-
     }
 
 }
