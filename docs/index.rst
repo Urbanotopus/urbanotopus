@@ -6,6 +6,8 @@
 Bienvenue sur la documentation d'urbanotopus !
 ==============================================
 
+Documentation du code C#, doxygens `disponible ici <doxygens/>`_.
+
 .. toctree::
     :maxdepth: 2
     :caption: Contenu
@@ -17,3 +19,4 @@ Bienvenue sur la documentation d'urbanotopus !
     development_guides
     deployment
     resources
+

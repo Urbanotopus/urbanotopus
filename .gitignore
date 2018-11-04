@@ -49,3 +49,9 @@ build/
 # Ignore the generated Merino files
 Assets/Merino/Editor/
 
+# Docs build
+dist/
+doxygens/
+html/
+latex/
+*.egg-info/
