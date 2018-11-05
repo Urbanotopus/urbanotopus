@@ -618,6 +618,8 @@ MonoBehaviour:
   HoverColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   DisabledColor: {r: 0.49, g: 0.49, b: 0.49, a: 1}
   SceneToLoad: {fileID: 102900000, guid: fcb9f404a0f3ebf47af74cbc56c8016c, type: 3}
+  YarnScene: {fileID: 102900000, guid: 0f5fdc3ec1f9f60469b8f1f112f310ce, type: 3}
+  YarnSceneToLoad: {fileID: 4900000, guid: b2cb858795c2d2a49b336ca31ee94406, type: 3}
 --- !u!65 &542105748
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2461,6 +2463,12 @@ Prefab:
       propertyPath: m_RootOrder
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 114988169810312702, guid: 361cb013b8f4b8b48ae0fce86f8d13e1,
+        type: 2}
+      propertyPath: OfficeScene
+      value: 
+      objectReference: {fileID: 102900000, guid: 35782f035515db04eb569eb7c8e749fa,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 361cb013b8f4b8b48ae0fce86f8d13e1, type: 2}
   m_IsPrefabAsset: 0

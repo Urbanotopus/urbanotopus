@@ -1,5 +1,7 @@
 ﻿using Managers;
+using UnityEditor;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Yarn.Unity;
 
 namespace Components {
