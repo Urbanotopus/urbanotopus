@@ -1,5 +1,7 @@
 using Components;
 using Managers;
+using UnityEditor;
+using UnityEngine.SceneManagement;
 
 namespace Menu {
     /// <summary>
@@ -12,17 +14,18 @@ namespace Menu {
     /// </summary>
     public class ContinueButton : EntryHover {
         /// <summary>
-        /// Retrieves the list of existing game saves,
-        /// if not saves were found, it disables the element
+        /// The entry point of a game,
+        /// the scene that will be loaded whenever the user wants to resume a game.
+        /// </summary>
+        public SceneAsset MainScene;
+
+        /// <summary>
+        /// If no saves were found, it disables the element
         /// and no `OnClick` event will ever be fired during
         /// the game object's lifetime.
         /// </summary>
         private new void Start() {
-            var saves = SaveGameManager.GetGameManager().ListSaves();
-            if (saves == null || saves.Count < 1) {
-                this.IsEnabled = false;
-            }
-
+            this.IsEnabled = SaveGameManager.SaveGameExists();
             base.Start();
         }
 
@@ -30,7 +33,8 @@ namespace Menu {
         /// Loads the latest game save when the user click on the element.
         /// </summary>
         protected override void OnClick() {
-            SaveGameManager.GetGameManager().LoadLatestGame();
+            SaveGameManager.LoadLatest();
+            SceneManager.LoadScene(this.MainScene.name);
         }
     }
 }

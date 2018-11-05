@@ -1,4 +1,5 @@
-﻿using UnityEditor;
+﻿using System.IO;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -43,11 +44,35 @@ namespace Managers {
         ///         <term>Hits F12</term>
         ///         <description>It loads the assigned debug scene.</description>
         ///     </item>
+        ///    <item>
+        ///         <term>Hits F6</term>
+        ///         <description>It saves the game's state.</description>
+        ///     </item>
+        ///    <item>
+        ///         <term>Hits F7</term>
+        ///         <description>It loads the game's state.</description>
+        ///     </item>
+        ///    <item>
+        ///         <term>Hits F8</term>
+        ///         <description>Deletes the saved game's state.</description>
+        ///     </item>
         /// </list>
         /// </summary>
         private void FixedUpdate() {
             if (Input.GetKey (KeyCode.F12)) {
                 SceneManager.LoadScene(this.DebugScene.name);
+            }
+            else if (Input.GetKey(KeyCode.F6)) {
+                SaveGameManager.Save();
+            }
+            else if (Input.GetKey(KeyCode.F7)) {
+                SaveGameManager.LoadLatest();
+            }
+            else if (Input.GetKey(KeyCode.F8)) {
+                File.Delete(SaveGameManager.SavePath);
+            }
+            else if (Input.GetKey(KeyCode.F9)) {
+                Debug.Log(SaveGameManager.GetCurrentGame().ChoiceHistory);
             }
         }
     }
