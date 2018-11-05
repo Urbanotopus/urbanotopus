@@ -5,6 +5,18 @@
   </a>
 </p>
 
+<a href='https://travis-ci.org/Urbanotopus/urbanotopus'>
+  <img src='https://travis-ci.org/Urbanotopus/urbanotopus.svg?branch=master' alt='Build Status'>
+</a>
+
+<a href='https://ci.appveyor.com/project/NyanKiyoshi/urbanotopus/branch/master'>
+  <img src='https://ci.appveyor.com/api/projects/status/04qqvhasq5c0hpth?svg=true' alt='Build Status'>
+</a>
+
+<a href='https://urbanotopus.readthedocs.io/en/latest/?badge=latest'>
+  <img src='https://readthedocs.org/projects/urbanotopus/badge/?version=latest' alt='Documentation Status' />
+</a>
+
 <h1>Urbanotopus Game and Docs</h1>
   <p>Game sources and documentation for Urbanotopus.</p>
   <p>Note: this project requires Unity 2018.2.14f1 
