@@ -12,13 +12,13 @@ namespace Components {
         /// to allow the developer to select a given scene
         /// to load whenever the user clicks on the element.
         /// </summary>
-        public SceneAsset SceneToLoad;
+        public string SceneToLoad;
 
         /// <summary>
         /// Load the gaven scene when the user clicked on the element.
         /// </summary>
         protected override void OnClick() {
-            SceneManager.LoadScene(this.SceneToLoad.name);
+            SceneManager.LoadScene(this.SceneToLoad);
         }
     }
 }

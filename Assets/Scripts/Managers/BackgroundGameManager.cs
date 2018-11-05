@@ -11,11 +11,6 @@ namespace Managers {
     /// <inheritdoc />
     public class BackgroundGameManager : MonoBehaviour {
         /// <summary>
-        /// The scene to load when the user hits F12.
-        /// </summary>
-        public SceneAsset DebugScene;
-
-        /// <summary>
         /// True if an instance of this game object was created.
         /// Ensuring its uniqueness.
         /// </summary>
@@ -59,8 +54,8 @@ namespace Managers {
         /// </list>
         /// </summary>
         private void FixedUpdate() {
-            if (Input.GetKey (KeyCode.F12)) {
-                SceneManager.LoadScene(this.DebugScene.name);
+            if (Input.GetKey(KeyCode.F12)) {
+                SceneManager.LoadScene(InternalScenesManager.MainMenu);
             }
             else if (Input.GetKey(KeyCode.F6)) {
                 SaveGameManager.Save();

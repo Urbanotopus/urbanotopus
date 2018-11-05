@@ -1,6 +1,5 @@
 using Components;
 using Managers;
-using UnityEditor;
 using UnityEngine.SceneManagement;
 
 namespace Menu {
@@ -13,12 +12,6 @@ namespace Menu {
     /// the whole scene will need to be reloaded.
     /// </summary>
     public class ContinueButton : EntryHover {
-        /// <summary>
-        /// The entry point of a game,
-        /// the scene that will be loaded whenever the user wants to resume a game.
-        /// </summary>
-        public SceneAsset MainScene;
-
         /// <summary>
         /// If no saves were found, it disables the element
         /// and no `OnClick` event will ever be fired during
@@ -34,7 +27,7 @@ namespace Menu {
         /// </summary>
         protected override void OnClick() {
             SaveGameManager.LoadLatest();
-            SceneManager.LoadScene(this.MainScene.name);
+            SceneManager.LoadScene(InternalScenesManager.Office);
         }
     }
 }

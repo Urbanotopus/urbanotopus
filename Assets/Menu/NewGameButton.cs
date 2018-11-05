@@ -1,6 +1,5 @@
 using Components;
 using Managers;
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -10,12 +9,7 @@ namespace Menu {
     /// This class will load a game scene
     /// and reset the game data if the user clicks on the element.
     /// </summary>
-    public class NewGameButton : ClickAndLoadScene {
-        /// <summary>
-        /// The scene that is capable of loading any supplied Yarn script.
-        /// </summary>
-        public SceneAsset YarnScene;
-
+    public class NewGameButton : EntryHover {
         /// <summary>
         /// The scene to load whenever the button is pressed.
         /// </summary>
@@ -28,7 +22,7 @@ namespace Menu {
         protected override void OnClick() {
             SaveGameManager.ResetData();
             YarnSceneManager.CurrentYarnScript = this.YarnSceneToLoad;
-            SceneManager.LoadScene(this.YarnScene.name);
+            SceneManager.LoadScene(InternalScenesManager.VisualNovel);
         }
     }
 }

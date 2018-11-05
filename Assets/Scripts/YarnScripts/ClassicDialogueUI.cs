@@ -29,6 +29,7 @@ using System.Collections;
 using UnityEngine.UI;
 using System.Text;
 using System.Collections.Generic;
+using Managers;
 using UnityEditor;
 using UnityEngine.SceneManagement;
 
@@ -46,7 +47,6 @@ namespace Yarn.Unity.Example {
         // Ropework specific stuff
         public Ropework.RopeworkManager ropework;
         public Text nameText;
-        public SceneAsset EndDialogScene;
 
         /// The object that contains the dialogue and the options.
         /** This object will be enabled when conversation starts, and
@@ -255,7 +255,7 @@ namespace Yarn.Unity.Example {
                 gameControlsContainer.gameObject.SetActive(true);
             }
 
-            SceneManager.LoadScene(this.EndDialogScene.name);
+            SceneManager.LoadScene(InternalScenesManager.Office);
 
             yield break;
         }
