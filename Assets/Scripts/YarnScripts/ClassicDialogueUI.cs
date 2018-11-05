@@ -29,6 +29,9 @@ using System.Collections;
 using UnityEngine.UI;
 using System.Text;
 using System.Collections.Generic;
+using Managers;
+using UnityEditor;
+using UnityEngine.SceneManagement;
 
 namespace Yarn.Unity.Example {
     /// Displays dialogue lines to the player, and sends
@@ -46,7 +49,7 @@ namespace Yarn.Unity.Example {
         public Text nameText;
 
         /// The object that contains the dialogue and the options.
-        /** This object will be enabled when conversation starts, and 
+        /** This object will be enabled when conversation starts, and
          * disabled when it ends.
          */
         public GameObject dialogueContainer;
@@ -108,7 +111,7 @@ namespace Yarn.Unity.Example {
                 speakerName = splitLine[0].Trim();
                 lineTextDisplay = splitLine[1].Trim();
             }
-            
+
             if ( speakerName.Length > 0 ) {
                 // change dialog nameplate text and, if applicable the BG color
                 nameText.transform.parent.gameObject.SetActive(true);
@@ -169,7 +172,7 @@ namespace Yarn.Unity.Example {
         }
 
         /// Show a list of options, and wait for the player to make a selection.
-        public override IEnumerator RunOptions (Yarn.Options optionsCollection, 
+        public override IEnumerator RunOptions (Yarn.Options optionsCollection,
                                                 Yarn.OptionChooser optionChooser)
         {
             // Do a little bit of safety checking
@@ -209,7 +212,7 @@ namespace Yarn.Unity.Example {
             SetSelectedOption (selectedOption);
 
             // Now remove the delegate so that the loop in RunOptions will exit
-            SetSelectedOption = null; 
+            SetSelectedOption = null;
         }
 
         /// Run an internal command.
@@ -251,6 +254,8 @@ namespace Yarn.Unity.Example {
             if (gameControlsContainer != null) {
                 gameControlsContainer.gameObject.SetActive(true);
             }
+
+            SceneManager.LoadScene(InternalScenesManager.Office);
 
             yield break;
         }

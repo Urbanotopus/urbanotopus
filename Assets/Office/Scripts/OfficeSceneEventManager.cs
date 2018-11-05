@@ -68,7 +68,7 @@ namespace Office.Scripts {
             }
 
             // Hide any canvas parent of this component
-            foreach (var canvas in CloseableCanvasToManage) {
+            foreach (var canvas in this.CloseableCanvasToManage) {
                 canvas.gameObject.SetActive(false);
             }
 
