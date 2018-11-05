@@ -8,6 +8,9 @@ parent:
 // sets background image to sprite called "bg_office"
 <<Scene @ bg_office>>
 
+// start playing audioclip "music_le_baguette" at 10% volume, loop forever
+<<PlayAudio @ music_le_baguette, 0.1, loop>>
+
 // adds actor named "Professeur Sorbier" using sprite "biz-guy",
 // placed in left-half + center of screen, with green text label
 <<Act @ Professeur Sorbier, biz-guy, left, center, green>>
@@ -16,6 +19,10 @@ parent:
 <<Act @ Alice Larrson, cool-girl, 1.25, center, #226677>>
 
 Professeur Sorbier: Bonjour Alice !
+
+// animate Adam into new position in right-half + center, within 0.5 seconds
+<<Move @ Alice Larrson, right, center, 0.5>>
+
 Professeur Sorbier: ...Ou peut-être devrais-je dire mademoiselle Larrson ?
 Professeur Sorbier: ...Dans tous les cas, bienvenue à Vestigion !
 Professeur Sorbier: J'espère que l'air frais de la montagne te plaira !
@@ -24,9 +31,6 @@ Professeur Sorbier: Mon rôle est de t'apprendre tout ce dont tu as besoin de 
 Professeur Sorbier: Es-tu timide ?
 Professeur Sorbier: Ou peut-être que tu ne sais pas comment me répondre ?
 Professeur Sorbier: Mais c'est très simple, cliques sur un des cadres situé au dessus de moi !
-
-// animate Adam into new position in right-half + center, within 0.5 seconds
-<<Move @ Alice Larrson, right, center, 0.5>>
 
 -> Je ne suis pas timide !
     << register_choice Globals 1 1 1 >>
