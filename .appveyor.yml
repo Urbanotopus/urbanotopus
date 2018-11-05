@@ -15,6 +15,7 @@ test_script:
   - python -V
   - python -m pip -V
   - make html
+  - python rebuild_readme.py
 
 cache:
   - '%LOCALAPPDATA%\pip\Cache'

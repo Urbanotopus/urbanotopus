@@ -11,6 +11,10 @@ cache:
     - $HOME/.pre-commit
     - $HOME/Library/Caches/Homebrew
 
+env:
+  global:
+    - BUILD_PATH=pages-build
+
 matrix:
   fast_finish: true
 
@@ -59,9 +63,10 @@ install:
 
 script:
   - make html
+  - python rebuild_readme.py
   - mkdir -p ${BUILD_PATH}
   - cp -Rv build/* $BUILD_PATH
-  - cp -Rv source/ $BUILD_PATH
+  - cp -Rv docs/* $BUILD_PATH
 
 before_cache:
   - >

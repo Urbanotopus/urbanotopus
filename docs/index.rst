@@ -3,14 +3,19 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Bienvenue sur la documentation d'urbanotopus's !
-================================================
+Bienvenue sur la documentation d'urbanotopus !
+==============================================
+
+Documentation du code C#, doxygen `disponible ici <doxygens/annotated.html>`_.
 
 .. toctree::
     :maxdepth: 2
     :caption: Contenu
 
     introduction
-    architecture
+    conventions
     contributing
-    ressources
+    development_guides
+    deployment
+    resources
+

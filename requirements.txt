@@ -1,2 +1,5 @@
 sphinx
 sphinx-rtd-theme
+beautifulsoup4
+html5lib
+

@@ -30,15 +30,22 @@ namespace Components {
             }
         }
 
+        protected void ActivateHover() {
+            this._inactiveColor = this._renderer.material.color;
+            this._renderer.material.color = this.HoverColor;
+        }
+
+        protected void DeactivateHover() {
+            this._renderer.material.color = this._inactiveColor;
+        }
+
         private void OnMouseEnter() {
             // we need to ensure this is not being
             // called multiple times during an update
             if (this._isHovering || !this.IsEnabled) {
                 return;
             }
-
-            this._inactiveColor = this._renderer.material.color;
-            this._renderer.material.color = this.HoverColor;
+            this.ActivateHover();
             this._isHovering = true;
             this._audioHoverSource.Play();
         }
@@ -48,7 +55,7 @@ namespace Components {
                 return;
             }
 
-            this._renderer.material.color = this._inactiveColor;
+            this.DeactivateHover();
             this._isHovering = false;
         }
     }

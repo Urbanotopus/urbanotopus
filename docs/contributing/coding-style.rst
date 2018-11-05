@@ -1,3 +1,5 @@
+.. _coding-style:
+
 Style de codage
 ===============
 
@@ -58,3 +60,75 @@ Utilisez :
 4. `pydocstyle <http://pydocstyle.pycqa.org/en/latest/>`_ pour vérifier que vos docstrings sont correctement formatées ;
 5. `eslint <https://eslint.org/>`_ pour vérifier votre code Javascript ;
 6. `tslint <https://palantir.github.io/tslint/>`_ pour vérifier votre code Typescript.
+
+
+CSharp (C#)
+-----------
+
+Les blocs de code
+-----------------
+
+Veuillez ne pas retourner à la ligne après l'ouverture d'un crochet
+puis retourner à la ligne après une fermeture.
+
+Faites :
+
+.. code-block:: csharp
+
+    namespace models {
+        public class Employee {
+            public Employee(int id) {
+                if (id == 0) {
+                    try {
+                        id = id / 0;
+                    }
+                    catch(System.DivideByZeroException exc) {
+                        // We did not stick `catch(...) {` to `}`.
+                    }
+                }
+                else {
+                    // We did not stick `else {` to `}`.
+                }
+            }
+        }
+    }
+
+
+L'accès à l'instance courante
+-----------------------------
+
+Veuillez utiliser le mot ``this`` pour accèder à l'instance courante.
+
+Faites :
+
+.. code-block:: csharp
+
+    public class Employee {
+        private string _nameAlias;
+        private string _name;
+
+        public Employee(string name, string nameAlias) {
+            // Use this to qualify the members of the class
+            // instead of the constructor parameters.
+            this._alias = name;
+            this._nameAlias = nameAlias;
+            System.Console.WriteLine(this._name);
+        }
+    }
+
+Et non pas :
+
+.. code-block:: csharp
+
+    public class Employee {
+        private string _nameAlias;
+        private string _name;
+
+        public Employee(string name, string nameAlias) {
+            // Use this to qualify the members of the class
+            // instead of the constructor parameters.
+            _name = name;
+            _nameAlias = nameAlias;
+            System.Console.WriteLine(_name);
+        }
+    }
