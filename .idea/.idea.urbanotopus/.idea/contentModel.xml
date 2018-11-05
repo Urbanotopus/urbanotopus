@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Wuu\.Rider2018.2\config\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\Wuu\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Wuu\.Rider2018.2\system\resharper-host\Local\Transient\ReSharperHost\v182\SolutionCaches\_urbanotopus.-1604533944.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Wuu\Documents\urbanotopus" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Menu" t="Include">
+          <e p="ContinueButton.cs" t="Include" />
+          <e p="NewGameButton.cs" t="Include" />
+        </e>
+        <e p="Merino" t="Include">
+          <e p="Editor" t="Include">
+            <e p="Fonts" t="Include">
+              <e p="OFL.txt" t="Include" />
+            </e>
+            <e p="Resources" t="Include">
+              <e p="NewFileTemplate.yarn.txt" t="Include" />
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="BackendData" t="Include">
+                <e p="MerinoTreeData.cs" t="Include" />
+                <e p="TreeViewWithTreeModel.cs" t="Include" />
+              </e>
+              <e p="MerinoDialogueUI.cs" t="Include" />
+              <e p="MerinoEditorWindow.cs" t="Include" />
+              <e p="MerinoMultiColumnHeader.cs" t="Include" />
+              <e p="MerinoPrefs.cs" t="Include" />
+              <e p="MerinoStyles.cs" t="Include" />
+              <e p="MerinoTreeElement.cs" t="Include" />
+              <e p="MerinoTreeView.cs" t="Include" />
+              <e p="MerinoVariableStorage.cs" t="Include" />
+              <e p="TreeDataModel" t="Include">
+                <e p="TreeElement.cs" t="Include" />
+                <e p="TreeElementUtility.cs" t="Include" />
+                <e p="TreeModel.cs" t="Include" />
+              </e>
+              <e p="YarnSpinnerConsole" t="Include">
+                <e p="YarnSpinnerFileFormatConverter.cs" t="Include" />
+                <e p="YarnSpinnerLoader.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Thirdparty" t="Include">
+              <e p="EditorCoroutines" t="Include">
+                <e p="Readme - v1.1.0.txt" t="Include" />
+                <e p="Scripts" t="Include">
+                  <e p="EditorCoroutineExtensions.cs" t="Include" />
+                  <e p="EditorCoroutines.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Office" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="OfficeSceneEventManager.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Props" t="Include">
+          <e p="Plant" t="Include">
+            <e p="AlphaTest-Bumped.shader" t="Include" />
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="Components" t="Include">
+            <e p="ClickAndExit.cs" t="Include" />
+            <e p="ClickAndLoadScene.cs" t="Include" />
+            <e p="EntryHover.cs" t="Include" />
+            <e p="HoverableButton.cs" t="Include" />
+            <e p="SceneLoaderButton.cs" t="Include" />
+            <e p="YarnCommandDispatcher.cs" t="Include" />
+          </e>
+          <e p="Managers" t="Include">
+            <e p="BackgroundGameManager.cs" t="Include" />
+            <e p="ChoiceHistory.cs" t="Include" />
+            <e p="GameState.cs" t="Include" />
+            <e p="InternalScenesManager.cs" t="Include" />
+            <e p="SaveGameManager.cs" t="Include" />
+            <e p="YarnSceneManager.cs" t="Include" />
+          </e>
+          <e p="yarnScripts" t="Include">
+            <e p="CameraFollow.cs" t="Include" />
+            <e p="ClassicDialogueUI.cs" t="Include" />
+            <e p="DialogueUI.cs" t="Include" />
+            <e p="MobileOnly.cs" t="Include" />
+            <e p="NPC.cs" t="Include" />
+            <e p="PlayerCharacter.cs" t="Include" />
+            <e p="RopeworkManager.cs" t="Include" />
+            <e p="SpriteSwitcher.cs" t="Include" />
+            <e p="VariableStorage.cs" t="Include" />
+          </e>
+        </e>
+        <e p="yarnScripts" t="Include">
+          <e p="chapter1_Introduction.yarn.txt" t="Include" />
+          <e p="RopeworkSimple.yarn.txt" t="Include" />
+        </e>
+        <e p="YarnSpinner" t="Include">
+          <e p="Code" t="Include">
+            <e p="DialogueRunner.cs" t="Include" />
+            <e p="Editor" t="Include">
+              <e p="YarnSpinnerEditorWindow.cs" t="Include" />
+              <e p="YarnSpinnerTests.cs" t="Include" />
+            </e>
+          </e>
+          <e p="README.txt" t="Include" />
+        </e>
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+      <e p="urbanotopus.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>

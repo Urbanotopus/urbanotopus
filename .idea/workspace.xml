@@ -1,0 +1,1695 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cf6c5ed8-6bc8-48b8-bbc9-c698f932baa1" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.appveyor.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/bug_report.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/bug_report_fr.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/feature_request.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/feature_request_fr.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/PULL_REQUEST_TEMPLATE/code_change.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/PULL_REQUEST_TEMPLATE/code_change_fr.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/PULL_REQUEST_TEMPLATE/typo_change.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/PULL_REQUEST_TEMPLATE/typo_change_fr.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Louis George Cafe Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Louis George Cafe Bold.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Louis George Cafe Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Louis George Cafe Light.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Louis George Cafe.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Louis George Cafe.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Menu.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Menu/BaseFloor.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Menu/BaseFloor.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Menu/ContinueButton.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Menu/ContinueButton.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Menu/NewGameButton.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Menu/NewGameButton.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Fonts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Fonts/Inconsolata-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Fonts/Inconsolata-Bold.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Fonts/Inconsolata-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Fonts/Inconsolata-Regular.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Fonts/OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Fonts/OFL.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Resources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Resources/Merino_NodeIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Resources/Merino_NodeIcon.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Resources/Merino_NodeIcon_Add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Resources/Merino_NodeIcon_Add.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Resources/Merino_NodeIcon_Delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Resources/Merino_NodeIcon_Delete.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Resources/Merino_NodeIcon_Edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Resources/Merino_NodeIcon_Edit.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Resources/Merino_PageIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Resources/Merino_PageIcon.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Resources/Merino_PageIcon_New.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Resources/Merino_PageIcon_New.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Resources/Merino_SaveIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Resources/Merino_SaveIcon.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Resources/NewFileTemplate.yarn.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Resources/NewFileTemplate.yarn.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Scripts/BackendData.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Scripts/BackendData/MerinoTreeData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Scripts/BackendData/MerinoTreeData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Scripts/BackendData/TreeViewWithTreeModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Scripts/BackendData/TreeViewWithTreeModel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Scripts/MerinoDialogueUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Scripts/MerinoDialogueUI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Scripts/MerinoEditorWindow.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Scripts/MerinoEditorWindow.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Scripts/MerinoMultiColumnHeader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Scripts/MerinoMultiColumnHeader.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Scripts/MerinoPrefs.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Scripts/MerinoPrefs.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Scripts/MerinoStyles.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Scripts/MerinoStyles.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Scripts/MerinoTreeElement.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Scripts/MerinoTreeElement.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Scripts/MerinoTreeView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Scripts/MerinoTreeView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Scripts/MerinoVariableStorage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Scripts/MerinoVariableStorage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Scripts/TreeDataModel.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Scripts/TreeDataModel/TreeElement.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Scripts/TreeDataModel/TreeElement.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Scripts/TreeDataModel/TreeElementUtility.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Scripts/TreeDataModel/TreeElementUtility.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Scripts/TreeDataModel/TreeModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Scripts/TreeDataModel/TreeModel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Scripts/YarnSpinnerConsole.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Scripts/YarnSpinnerConsole/YarnSpinnerFileFormatConverter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Scripts/YarnSpinnerConsole/YarnSpinnerFileFormatConverter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Scripts/YarnSpinnerConsole/YarnSpinnerLoader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Scripts/YarnSpinnerConsole/YarnSpinnerLoader.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Thirdparty.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Thirdparty/EditorCoroutines.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Thirdparty/EditorCoroutines/Readme - v1.1.0.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Thirdparty/EditorCoroutines/Readme - v1.1.0.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Thirdparty/EditorCoroutines/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Thirdparty/EditorCoroutines/Scripts/EditorCoroutineExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Thirdparty/EditorCoroutines/Scripts/EditorCoroutineExtensions.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Thirdparty/EditorCoroutines/Scripts/EditorCoroutines.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Merino/Editor/Thirdparty/EditorCoroutines/Scripts/EditorCoroutines.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Office.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Office/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Office/Materials/jibberish_papertexture.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Office/Materials/jibberish_papertexture.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Office/Materials/phone.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Office/Materials/phone.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Office/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Office/Scripts/OfficeSceneEventManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Office/Scripts/OfficeSceneEventManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Office/source.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Office/source/office.blend" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Office/source/office.blend.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Office/source/paper_pill.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Office/source/paper_pill.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Office/source/phone.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Office/source/phone.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Office/source/setup.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Office/source/setup.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Office/sprites.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Office/sprites/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Office/sprites/Materials/sprite_object_interaction_area.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Office/sprites/Materials/sprite_object_interaction_area.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Office/sprites/PhoneSprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Office/sprites/PhoneSprite.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Office/sprites/PhoneSprite.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Office/sprites/PhoneSprite.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Office/sprites/sprite_object_interaction_area.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Office/sprites/sprite_object_interaction_area.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Office/sprites/sprite_object_interaction_area.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Office/sprites/sprite_object_interaction_area.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Office/textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Office/textures/NormalMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Office/textures/NormalMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Office/textures/gamingsetup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Office/textures/gamingsetup.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Office/textures/jibberish_papertexture.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Office/textures/jibberish_papertexture.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Office/textures/paper.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Office/textures/paper.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Office/textures/phone.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Office/textures/phone.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/GlobalComponents.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/GlobalComponents.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/RopeworkClassicUI.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/RopeworkClassicUI.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Battery.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Battery/Battery Black.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Battery/Battery Black.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Battery/Battery Black.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Battery/Battery Black.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Battery/Battery Black.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Battery/Battery Black.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Battery/Battery.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Battery/Battery.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Battery/Battery.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Battery/Battery.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Boat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Boat/Boat.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Boat/Boat.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Boat/Boat.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Boat/Boat.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Boat/Boat.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Boat/Boat.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Boat/Boat.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Boat/Boat.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Boat/Boat_DEF.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Boat/Boat_DEF.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Boat/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Boat/Materials/Boat-01 - Default.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Boat/Materials/Boat-01 - Default.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Books.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Books/3dobjects_FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Books/3dobjects_FBX/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Books/3dobjects_FBX/Materials/books-book.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Books/3dobjects_FBX/Materials/books-book.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Books/3dobjects_FBX/Materials/books.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Books/3dobjects_FBX/Materials/books.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Books/3dobjects_FBX/books.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Books/3dobjects_FBX/books.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Books/Page Flipping Sound Effect.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Books/Page Flipping Sound Effect.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Books/Paper.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Books/Paper.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Books/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Books/Prefabs/book_0001a.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Books/Prefabs/book_0001a.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Books/Prefabs/book_0001b.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Books/Prefabs/book_0001b.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Books/Prefabs/book_0001c.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Books/Prefabs/book_0001c.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Books/Prefabs/book_0001d.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Books/Prefabs/book_0001d.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Books/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Books/Textures/books.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Books/Textures/books.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Box.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Box/Box-Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Box/Box-Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Box/Box.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Box/Box.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Box/Box.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Box/Box.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Box/Box.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Box/Box.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Box/Box.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Box/Box.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Box/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Box/Materials/box-wood.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Box/Materials/box-wood.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Carpet.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Carpet/Carpet.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Carpet/Carpet.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Carpet/carpet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Carpet/carpet.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Chair.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Chair/Chair1.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Chair/Chair1.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Chair/ChairSide.dae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Chair/ChairSide.dae.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Chair/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Chair/Materials/Black_Dots_4.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Chair/Materials/Black_Dots_4.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Chair/Pillow1.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Chair/Pillow1.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Chair/Pillow2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Chair/Pillow2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Chair/Pillow3.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Chair/Pillow3.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Chair/tissu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Chair/tissu.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Chair/tissu2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Chair/tissu2.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Chair/tissu3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Chair/tissu3.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/CityBlock.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/CityBlock/cityblock.dae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/CityBlock/cityblock.dae.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Clock.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Clock/Clock.dae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Clock/Clock.dae.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Clock/Clock.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Clock/Clock.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Clock/ClockBack.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Clock/ClockBack.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Clock/ClockBackBattery.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Clock/ClockBackBattery.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Clock/ClockFace.dae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Clock/ClockFace.dae.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Clock/ClockFace.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Clock/ClockFace.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Clock/Hands.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Clock/Hands/Hand.dae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Clock/Hands/Hand.dae.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Clock/Hands/HandBlack.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Clock/Hands/HandBlack.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Clock/Hands/HandRed.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Clock/Hands/HandRed.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Clock/Hands/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Clock/Hands/Materials/IKea_black_.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Clock/Hands/Materials/IKea_black_.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Clock/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Clock/Materials/Black_Lines_3.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Clock/Materials/Black_Lines_3.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Clock/Materials/Black_Pen_3.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Clock/Materials/Black_Pen_3.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Clock/Materials/Black_Perforated_2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Clock/Materials/Black_Perforated_2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Clock/Materials/Black_Perforated_3.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Clock/Materials/Black_Perforated_3.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Clock/Tick.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Clock/Tick.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Clock/Wood.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Clock/Wood.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Clock/clockFace.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Clock/clockFace.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Combination.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Combination/Combination.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Combination/Combination.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Combination/Combination.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Combination/Combination.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Combination/Combination.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Combination/Combination.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Combination/CombinedObject.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Combination/CombinedObject.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Combination/Turn.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Combination/Turn.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Couch.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Couch/Cusion.dae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Couch/Cusion.dae.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Couch/Cusion.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Couch/Cusion.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Couch/Leg.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Couch/Leg.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Couch/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Couch/Materials/Black_Perforated_2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Couch/Materials/Black_Perforated_2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Couch/Materials/Black_Perforated_3.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Couch/Materials/Black_Perforated_3.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Couch/Materials/meuble_gris.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Couch/Materials/meuble_gris.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Couch/Materials/tissu.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Couch/Materials/tissu.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Couch/Materials/tissu2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Couch/Materials/tissu2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Couch/Materials/tissu3.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Couch/Materials/tissu3.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Couch/Matress.dae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Couch/Matress.dae.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Couch/Matress.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Couch/Matress.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Couch/Pillow.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Couch/Pillow.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Couch/Pillow.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Couch/Pillow.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Couch/sofa.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Couch/sofa.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Crosshair.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Crosshair/Crosshair.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Crosshair/Crosshair.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Curtain.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Curtain/Curtain.dae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Curtain/Curtain.dae.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Curtain/Curtain.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Curtain/Curtain.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Curtain/Curtain.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Curtain/Curtain.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Curtain/CurtainRod.dae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Curtain/CurtainRod.dae.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Curtain/CurtainRod.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Curtain/CurtainRod/Black_Perforated_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Curtain/CurtainRod/Black_Perforated_1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Curtain/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Curtain/Materials/Black_Perforated_1.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Curtain/Materials/Black_Perforated_1.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Curtain/Materials/Solid_Navy_Blue_Drapery_or_Upholstery1.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Curtain/Materials/Solid_Navy_Blue_Drapery_or_Upholstery1.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Curtain/Test.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Dock.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Dock/Dock.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Dock/Dock.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Dock/Dock.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Dock/Dock.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Dock/Dock.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Dock/Dock.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Dock/Dock.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Dock/Dock.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Door.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Door/Door.dae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Door/Door.dae.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Door/Door.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Door/Door.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Door/Door.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Door/Door.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Door/Door.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Door/Door/Black_Pen_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Door/Door/Black_Pen_1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Door/Door1.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Door/Door1.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Door/Door2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Door/Door2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Door/DoorHandle.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Door/DoorHandle.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Door/Locked Door.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Door/Locked Door.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Door/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Door/Materials/Black_Pen_1.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Door/Materials/Black_Pen_1.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Door/Materials/Wood_Cherry_Original.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Door/Materials/Wood_Cherry_Original.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Footsteps.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Footsteps/Footstep1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Footsteps/Footstep1.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Footsteps/Footstep2.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Footsteps/Footstep2.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Footsteps/Footstep3.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Footsteps/Footstep3.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Footsteps/Footstep4.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Footsteps/Footstep4.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Footsteps/Grass1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Footsteps/Grass1.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Footsteps/Grass2.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Footsteps/Grass2.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Footsteps/Grass3.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Footsteps/Grass3.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Footsteps/Grass4.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Footsteps/Grass4.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Footsteps/WoodJump.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Footsteps/WoodJump.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Frame.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Frame/Art3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Frame/Art3.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Frame/Art3.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Frame/Art3.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Frame/Art5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Frame/Art5.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Frame/Art5.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Frame/Art5.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Frame/Art6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Frame/Art6.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Frame/Art6.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Frame/Art6.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Frame/Frame.dae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Frame/Frame.dae.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Frame/Frame.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Frame/Frame.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Frame/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Frame/Materials/Black_Lines_5.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Frame/Materials/Black_Lines_5.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Frame/WoodPicture.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Frame/WoodPicture.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/GodRays.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/GodRays/GodRay.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/GodRays/GodRay.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/GodRays/GodRay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/GodRays/GodRay.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Key.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Key/Key.dae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Key/Key.dae.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Key/Key.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Key/Key.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Key/Keys.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Key/Keys.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Key/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Key/Materials/Metal_Seamed.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Key/Materials/Metal_Seamed.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Lamp.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Lamp/Lamp.dae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Lamp/Lamp.dae.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Lamp/Lamp.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Lamp/Lamp.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Lamp/LampBase.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Lamp/LampBase.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Lamp/LampOff.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Lamp/LampOff.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Lamp/LampOn.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Lamp/LampOn.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Lamp/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Lamp/Materials/Black_Dots_4.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Lamp/Materials/Black_Dots_4.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Lamp/Materials/Black_Pen_1.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Lamp/Materials/Black_Pen_1.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Lamp/Materials/material.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Lamp/Materials/material.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/LightSwitch.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/LightSwitch/LightPlate.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/LightSwitch/LightPlate.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/LightSwitch/LightSwitch.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/LightSwitch/LightSwitch.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/LightSwitch/LightSwitch.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/LightSwitch/LightSwitch.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/LightSwitch/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/LightSwitch/Materials/PlateMat.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/LightSwitch/Materials/PlateMat.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/LightSwitch/Switch.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/LightSwitch/Switch.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Menu.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Menu/Cover.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Menu/Cover.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Menu/Credits.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Menu/Credits.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Menu/Credits.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Menu/Credits.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Menu/Hover.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Menu/Hover.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Menu/Options.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Menu/Options.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Menu/Options.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Menu/Options.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Menu/Vignette.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Menu/Vignette.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Menu/cursor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Menu/cursor.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/OutSide.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/OutSide/Grass.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/OutSide/Grass.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/OutSide/Ocean (mp3cut.net).mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/OutSide/Ocean (mp3cut.net).mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/OutSide/Ocean.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/OutSide/Ocean.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/OutSide/Outdoors.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/OutSide/Outdoors.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/OutSide/Sand.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/OutSide/Sand.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/OutSide/SandShadow.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/OutSide/SandShadow.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Paper.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Paper/paper.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Paper/paper.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Paper/paper.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Paper/paper.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Paper/word1.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Paper/word1.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Paper/word2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Paper/word2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Paper/word3.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Paper/word3.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Paper/word4.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Paper/word4.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Paper/word5.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Paper/word5.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Paper/word6.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Paper/word6.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Paper/word7.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Paper/word7.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Paper/word8.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Paper/word8.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Paper/words.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Paper/words.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Paper/words.xcf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Paper/words.xcf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Plant.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Plant/AlphaTest-Bumped.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Plant/AlphaTest-Bumped.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Plant/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Plant/Materials/texture.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Plant/Materials/texture.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Plant/pfl1.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Plant/pfl1.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Plant/plantnormal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Plant/plantnormal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Plant/prefab.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Plant/prefab.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Plant/prex2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Plant/prex2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Bar.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Bar.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Ceiling.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Ceiling.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Ceiling.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Ceiling.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Floor.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Floor.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Floor.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Floor.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Materials/Black_Dots_2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Materials/Black_Dots_2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Materials/Black_Lines_4.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Materials/Black_Lines_4.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Materials/Black_Pen_2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Materials/Black_Pen_2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Materials/Black_Perforated_1.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Materials/Black_Perforated_1.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Materials/Black_Perforated_4.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Materials/Black_Perforated_4.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Materials/Floor.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Materials/Floor.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Materials/Metal_Embossed.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Materials/Metal_Embossed.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Materials/Metal_Panel.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Materials/Metal_Panel.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Materials/Wall.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Materials/Wall.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Materials/material.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Materials/material.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Materials/wallOutside.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Materials/wallOutside.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Roof.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Roof.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Roof.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Roof.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Room.dae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Room.dae.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Room.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Room/Black_Dots_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Room/Black_Dots_2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Room/Black_Lines_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Room/Black_Lines_4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Room/Black_Pen_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Room/Black_Pen_2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Room/Black_Perforated_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Room/Black_Perforated_1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Room/Black_Perforated_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Room/Black_Perforated_4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Room/Metal_Embossed.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Room/Metal_Embossed.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Room/Metal_Panel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Room/Metal_Panel.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Wall.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Wall.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Wall.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Wall.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/WallOutside.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/WallOutside.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/White.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/White.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Window.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/Window.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/WindowSlits.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/WindowSlits.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/glass.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/glass.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/wallOutside.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Room/wallOutside.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Safe.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Safe/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Safe/Materials/Black_Dots_4.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Safe/Materials/Black_Dots_4.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Safe/Materials/Black_Perforated_3.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Safe/Materials/Black_Perforated_3.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Safe/Safe.dae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Safe/Safe.dae.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Safe/Safe.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Safe/Safe.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Safe/Safe.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Safe/Safe.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Safe/Safe2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Safe/Safe2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Safe/SafeWall.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Safe/SafeWall.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Safe/door_sliding.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Safe/door_sliding.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/SelectGUI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/SelectGUI/SelectGUI.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/SelectGUI/SelectGUI.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/SideLight.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/SideLight/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/SideLight/Materials/Black_Lines_5.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/SideLight/Materials/Black_Lines_5.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/SideLight/SideLight.dae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/SideLight/SideLight.dae.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/SideLight/SideLight.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/SideLight/SideLight.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/SideLight/SideLightOn.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/SideLight/SideLightOn.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Skybox.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Skybox/back.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Skybox/back.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Skybox/bot.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Skybox/bot.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Skybox/front.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Skybox/front.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Skybox/l.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Skybox/l.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Skybox/r.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Skybox/r.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Skybox/sky,startday.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Skybox/sky,startday.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Skybox/up.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Skybox/up.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Table.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Table/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Table/Materials/tabouret_3-osier.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Table/Materials/tabouret_3-osier.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Table/Table.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Table/Table.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Table/Table.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Table/Table.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Table/table.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Table/table.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Table/tabouret_3.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/Table/tabouret_3.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/WallShelf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/WallShelf/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/WallShelf/Materials/Black_Lines_5.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/WallShelf/Materials/Black_Lines_5.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/WallShelf/WallShelf.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/WallShelf/WallShelf.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/WallShelf/WallShelf2.dae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Props/WallShelf/WallShelf2.dae.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/ambient_birds.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/ambient_birds.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/bg_office.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/bg_office.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenuScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenuScene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/OfficeScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/OfficeScene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Story.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Story/IntroductionScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Story/IntroductionScene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/TutorialScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/TutorialScene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/VisualNovelScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/VisualNovelScene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Components.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Components/ClickAndExit.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Components/ClickAndExit.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Components/ClickAndLoadScene.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Components/ClickAndLoadScene.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Components/EntryHover.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Components/EntryHover.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Components/HoverableButton.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Components/HoverableButton.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Components/SceneLoaderButton.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Components/SceneLoaderButton.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Components/YarnCommandDispatcher.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Components/YarnCommandDispatcher.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/BackgroundGameManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/BackgroundGameManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/ChoiceHistory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/ChoiceHistory.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/GameState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/GameState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/InternalScenesManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/InternalScenesManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/SaveGameManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/SaveGameManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/YarnSceneManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/YarnSceneManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/YarnScripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/YarnScripts/CameraFollow.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/YarnScripts/CameraFollow.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/YarnScripts/ClassicDialogueUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/YarnScripts/ClassicDialogueUI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/YarnScripts/DialogueUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/YarnScripts/DialogueUI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/YarnScripts/MobileOnly.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/YarnScripts/MobileOnly.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/YarnScripts/NPC.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/YarnScripts/NPC.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/YarnScripts/PlayerCharacter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/YarnScripts/PlayerCharacter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/YarnScripts/RopeworkManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/YarnScripts/RopeworkManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/YarnScripts/SpriteSwitcher.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/YarnScripts/SpriteSwitcher.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/YarnScripts/VariableStorage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/YarnScripts/VariableStorage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/WorkingDesk.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/WorkingDesk/deskview.dae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/WorkingDesk/deskview.dae.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/WorkingDesk/textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/WorkingDesk/textures/wood.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/WorkingDesk/textures/wood/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/WorkingDesk/textures/wood/Materials/SmudgesLarge001_OVERLAY_VAR2_3K.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/WorkingDesk/textures/wood/Materials/SmudgesLarge001_OVERLAY_VAR2_3K.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/WorkingDesk/textures/wood/Materials/WoodFlooring044_COL_3K.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/WorkingDesk/textures/wood/Materials/WoodFlooring044_COL_3K.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/WorkingDesk/textures/wood/SmudgesLarge001_OVERLAY_VAR1_3K.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/WorkingDesk/textures/wood/SmudgesLarge001_OVERLAY_VAR1_3K.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/WorkingDesk/textures/wood/SmudgesLarge001_OVERLAY_VAR2_3K.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/WorkingDesk/textures/wood/SmudgesLarge001_OVERLAY_VAR2_3K.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/WorkingDesk/textures/wood/WoodFlooring044_COL_3K.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/WorkingDesk/textures/wood/WoodFlooring044_COL_3K.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/WorkingDesk/textures/wood/WoodFlooring044_DISP16_3K.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/WorkingDesk/textures/wood/WoodFlooring044_DISP16_3K.tif.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/WorkingDesk/textures/wood/WoodFlooring044_GLOSS_3K.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/WorkingDesk/textures/wood/WoodFlooring044_GLOSS_3K.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/WorkingDesk/textures/wood/WoodFlooring044_NRM_3K.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/WorkingDesk/textures/wood/WoodFlooring044_NRM_3K.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/YarnScripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/YarnScripts/RopeworkSimple.yarn.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/YarnScripts/RopeworkSimple.yarn.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/YarnScripts/chapter1_Introduction.yarn.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/YarnScripts/chapter1_Introduction.yarn.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/YarnSpinner.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/YarnSpinner/Code.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/YarnSpinner/Code/Antlr4.Runtime.Standard.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/YarnSpinner/Code/Antlr4.Runtime.Standard.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/YarnSpinner/Code/CsvHelper.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/YarnSpinner/Code/CsvHelper.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/YarnSpinner/Code/DialogueRunner.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/YarnSpinner/Code/DialogueRunner.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/YarnSpinner/Code/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/YarnSpinner/Code/Editor/YarnSpinnerEditorWindow.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/YarnSpinner/Code/Editor/YarnSpinnerEditorWindow.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/YarnSpinner/Code/Editor/YarnSpinnerEditorWindow.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/YarnSpinner/Code/Editor/YarnSpinnerEditorWindow.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/YarnSpinner/Code/Editor/YarnSpinnerFailed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/YarnSpinner/Code/Editor/YarnSpinnerFailed.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/YarnSpinner/Code/Editor/YarnSpinnerLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/YarnSpinner/Code/Editor/YarnSpinnerLogo.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/YarnSpinner/Code/Editor/YarnSpinnerNotTested.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/YarnSpinner/Code/Editor/YarnSpinnerNotTested.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/YarnSpinner/Code/Editor/YarnSpinnerSuccess.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/YarnSpinner/Code/Editor/YarnSpinnerSuccess.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/YarnSpinner/Code/Editor/YarnSpinnerTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/YarnSpinner/Code/Editor/YarnSpinnerTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/YarnSpinner/Code/Newtonsoft.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/YarnSpinner/Code/Newtonsoft.Json.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/YarnSpinner/Code/YarnSpinner.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/YarnSpinner/Code/YarnSpinner.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/YarnSpinner/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/YarnSpinner/README.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/sounds.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/sounds/music_funny.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/sounds/music_funny.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/sounds/music_le_baguette.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/sounds/music_le_baguette.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/sounds/music_romantic.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/sounds/music_romantic.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/sprites.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/sprites/biz-guy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/sprites/biz-guy.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/sprites/cool-girl.ai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/sprites/cool-girl.ai.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/sprites/cool-girl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/sprites/cool-girl.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doxyfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/AudioManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/ClusterInputManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/NetworkManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/PresetManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TemplateData/UnityProgress.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TemplateData/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TemplateData/fullscreen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TemplateData/progressEmpty.Dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TemplateData/progressEmpty.Light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TemplateData/progressFull.Dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TemplateData/progressFull.Light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TemplateData/progressLogo.Dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TemplateData/progressLogo.Light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TemplateData/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TemplateData/webgl-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/architecture.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/conf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/contributing.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/contributing/coding-style.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/contributing/contribute-source-code.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/contributing/documenting-project.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/contributing/documenting-source-code.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/contributing/editorconfig.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/contributing/naming.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/conventions.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/conventions/task-distribution.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/deployment.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/development_guides.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/development_guides/choice-management.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/development_guides/visual-novel-scenes.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/index.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/introduction.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/resources.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sphinx_static/images/development_guides/merino_menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sphinx_static/images/octopus.ai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sphinx_static/images/octopus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sphinx_static/images/octopus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sphinx_templates/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/make.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rebuild_readme.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/urbanotopus$rebuild_readme.coverage" NAME="rebuild_readme Coverage Results" MODIFIED="1540917264341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/html/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2737">
+              <caret line="161" column="12" selection-start-line="161" selection-start-column="12" selection-end-line="161" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="development_guides.rst" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/development_guides.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.rst" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/index.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="choice-management.rst" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/development_guides/choice-management.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Makefile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Makefile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rebuild_readme.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rebuild_readme.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="17">
+                <caret line="22" column="4" selection-end-line="83" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="architecture.rst" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/architecture.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contributing.rst" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/contributing.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deployment.rst" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/deployment.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>pull request</find>
+      <find>non-oi</find>
+      <find>assurez</find>
+      <find>request* est</find>
+      <find>param</find>
+      <find>&lt;</find>
+      <find>Exemple complet :</find>
+      <find>ploim</find>
+      <find>list of command line arg</find>
+      <find>une simple</find>
+      <find>Évitez de pull la branche</find>
+      <find>pull</find>
+      <find>méthodes déploiement</find>
+      <find>BUILD_PATH</find>
+      <find>text-align</find>
+      <find>encoding</find>
+      <find>:ref</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>*pull request*</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\Wuu\Documents\urbanotopus\docs\contributing</dir>
+      <dir>C:\Users\Wuu\Documents\urbanotopus\docs</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="introduction-scene" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/docs/contributing/naming.rst" />
+        <option value="$PROJECT_DIR$/docs/contributing/GitHub.rst" />
+        <option value="$PROJECT_DIR$/.github/PULL_REQUEST_TEMPLATE/code_change_pull_request_template.md" />
+        <option value="$PROJECT_DIR$/.github/PULL_REQUEST_TEMPLATE/code_change.md" />
+        <option value="$PROJECT_DIR$/.github/PULL_REQUEST_TEMPLATE/typo_change.md" />
+        <option value="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/bug_report.md" />
+        <option value="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/feature_request.md" />
+        <option value="$PROJECT_DIR$/docs/contributing/documenting.rst" />
+        <option value="$PROJECT_DIR$/docs/contributing/documenting-project" />
+        <option value="$PROJECT_DIR$/docs/architecture.rst" />
+        <option value="$PROJECT_DIR$/docs/deployment.rst" />
+        <option value="$PROJECT_DIR$/docs/contributing/documenting-source-code.rst" />
+        <option value="$PROJECT_DIR$/docs/contributing/coding.rst" />
+        <option value="$PROJECT_DIR$/docs/contributing.rst" />
+        <option value="$PROJECT_DIR$/docs/contributing/coding-style.rst" />
+        <option value="$PROJECT_DIR$/docs/contributing/documenting-project.rst" />
+        <option value="$PROJECT_DIR$/.github/PULL_REQUEST_TEMPLATE/typo_change_fr.md" />
+        <option value="$PROJECT_DIR$/.github/PULL_REQUEST_TEMPLATE/code_change_fr.md" />
+        <option value="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/feature_request_fr.md" />
+        <option value="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/bug_report_fr.md" />
+        <option value="$PROJECT_DIR$/docs/index.rst" />
+        <option value="$PROJECT_DIR$/docs/sphinx_templates/layout.html" />
+        <option value="$PROJECT_DIR$/docs/development_guides/visual-novel-scenes.rst" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/.appveyor.yml" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/.gitattributes" />
+        <option value="$PROJECT_DIR$/rebuild_readme.py" />
+        <option value="$PROJECT_DIR$/docs/guides.rst" />
+        <option value="$PROJECT_DIR$/docs/guides/choice-management.rst" />
+        <option value="$PROJECT_DIR$/build/html/guides.html" />
+        <option value="$PROJECT_DIR$/docs/development_guides.rst" />
+        <option value="$PROJECT_DIR$/docs/development_guides/choice-management.rst" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1087" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="urbanotopus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="urbanotopus" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="urbanotopus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="urbanotopus" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="urbanotopus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="urbanotopus" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="urbanotopus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="urbanotopus" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="development_guides" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="urbanotopus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="urbanotopus" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="urbanotopus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="urbanotopus" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="development_guides" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="Push.Settings">
+    <force-push-targets>
+      <force-push-target remote-path="origin" branch="guides/contribute" />
+    </force-push-targets>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Wuu\Documents\urbanotopus\docs\development_guides" />
+      <recent name="C:\Users\Wuu\Documents\urbanotopus\build\html\development_guides" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Wuu\Documents\urbanotopus\docs\sphinx_static\images\development_guides" />
+      <recent name="C:\Users\Wuu\Documents\urbanotopus\.github\ISSUE_TEMPLATE" />
+      <recent name="C:\Users\Wuu\Documents\urbanotopus\.github\PULL_REQUEST_TEMPLATE" />
+      <recent name="C:\Users\Wuu\Documents\urbanotopus\docs\contributing" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="rebuild_readme" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="urbanotopus" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rebuild_readme.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.rebuild_readme" />
+        <item itemvalue="Python.rebuild_readme" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cf6c5ed8-6bc8-48b8-bbc9-c698f932baa1" name="Default" comment="" />
+      <created>1540041642945</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540041642945</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Add PR contribution guide (for GitHub)">
+      <created>1540051823948</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1540051823948</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add github contribution templates + tell user to include screenshots">
+      <created>1540053719859</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1540053719859</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added docs on how to document the project and source code.">
+      <created>1540065312904</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1540065312904</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added notes on how to keep clean commit messages">
+      <created>1540065735489</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1540065735489</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fixed a few typos">
+      <created>1540066266313</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1540066266313</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added notes for C# about code blocks and instance access (this keyword)">
+      <created>1540068743987</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1540068743987</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added French templates for GitHub">
+      <created>1540123515228</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1540123515228</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Fix travis build">
+      <created>1540123791160</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1540123791160</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added contribution guide for custom Yarn scene scripts">
+      <created>1540743390748</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1540743390748</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Float to the right the Unity menu screenshot">
+      <created>1540819784305</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1540819784305</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Auto generate the TOC to README">
+      <created>1540917596278</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1540917596278</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Auto generate the TOC to README">
+      <created>1540918540058</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1540918540058</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32985386" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32985386" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.26304802" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13272922" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32985386" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add PR contribution guide (for GitHub)" />
+    <MESSAGE value="Add github contribution templates + tell user to include screenshots" />
+    <MESSAGE value="Added docs on how to document the project and source code." />
+    <MESSAGE value="Added notes on how to keep clean commit messages" />
+    <MESSAGE value="Fixed a few typos" />
+    <MESSAGE value="Added notes for C# about code blocks and instance access (this keyword)" />
+    <MESSAGE value="Added French templates for GitHub" />
+    <MESSAGE value="Fix travis build" />
+    <MESSAGE value="Added contribution guide for custom Yarn scene scripts" />
+    <MESSAGE value="Float to the right the Unity menu screenshot" />
+    <MESSAGE value="Auto generate the TOC to README" />
+    <option name="LAST_COMMIT_MESSAGE" value="Auto generate the TOC to README" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/docs/index.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/architecture.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.github/ISSUE_TEMPLATE/bug_report.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="357">
+            <caret line="21" selection-start-line="21" selection-end-line="21" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/contributing/documenting-source-code.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="62" column="29" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/contributing/naming.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/contributing/contribute-source-code.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="69" column="24" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/contributing/coding-style.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1887">
+          <caret line="111" column="27" selection-start-line="111" selection-start-column="27" selection-end-line="111" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/contributing/documenting-project.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/contributing.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/contributing/contribute-source-code.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="108" selection-start-line="15" selection-start-column="108" selection-end-line="15" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.github/PULL_REQUEST_TEMPLATE/code_change.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="187">
+            <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.github/ISSUE_TEMPLATE/feature_request.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="34">
+            <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.github/ISSUE_TEMPLATE/bug_report.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="34">
+            <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/contributing/coding-style.rst">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/contributing/naming.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.github/PULL_REQUEST_TEMPLATE/typo_change.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="221">
+            <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.github/PULL_REQUEST_TEMPLATE/typo_change.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="221">
+            <caret line="13" selection-start-line="13" selection-end-line="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/contributing/documenting-project.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.github/PULL_REQUEST_TEMPLATE/code_change.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="187">
+            <caret line="11" selection-start-line="11" selection-end-line="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.github/PULL_REQUEST_TEMPLATE/typo_change_fr.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="204">
+            <caret line="12" column="35" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="35" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.github/PULL_REQUEST_TEMPLATE/code_change_fr.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="391">
+            <caret line="23" selection-start-line="23" selection-end-line="23" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.github/ISSUE_TEMPLATE/bug_report.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="357">
+            <caret line="21" selection-start-line="21" selection-end-line="21" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.github/ISSUE_TEMPLATE/feature_request.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="34">
+            <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.github/ISSUE_TEMPLATE/feature_request_fr.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="306">
+            <caret line="18" selection-start-line="18" selection-end-line="18" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.github/ISSUE_TEMPLATE/bug_report_fr.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="357">
+            <caret line="21" selection-start-line="21" selection-end-line="21" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/contributing/documenting-source-code.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1989">
+          <caret line="117" column="32" selection-start-line="117" selection-start-column="32" selection-end-line="117" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/sphinx_templates/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/development_guides/visual-novel-scenes.rst" />
+    <entry file="file://$PROJECT_DIR$/docs/contributing/contribute-source-code.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/contributing/naming.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/contributing/coding-style.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/doctrees/index.doctree">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.appveyor.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/dev/saleor-venv/Lib/site-packages/bs4/element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21590">
+          <caret line="1274" column="31" selection-start-line="1274" selection-start-column="23" selection-end-line="1274" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/conventions.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/html/guides.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/guides.rst" />
+    <entry file="file://$PROJECT_DIR$/build/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2737">
+          <caret line="161" column="12" selection-start-line="161" selection-start-column="12" selection-end-line="161" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/index.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/contributing.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/deployment.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/architecture.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/development_guides.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/development_guides/choice-management.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rebuild_readme.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="17">
+            <caret line="22" column="4" selection-end-line="83" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
