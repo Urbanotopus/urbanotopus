@@ -1,11 +1,25 @@
-<p align='center'>
-  <a href='https://urbanotopus.vanille.bid/'>
+<div align='center'>
+<p>
+  <a href='https://urbanotopus.readthedocs.io/'>
     <img alt='logo' src='docs/sphinx_static/images/octopus.png'/>
   </a>
 </p>
 
-<h1 align='center'>Urbanotopus Game and Docs</h1>
-<p align='center'>Game sources and documentation for Urbanotopus.</p>
+<h1>Urbanotopus Game and Docs</h1>
+  <p>Game sources and documentation for Urbanotopus.</p>
+  <p>Note: this project requires Unity 2018.2.14f1 
+for <a href='https://netstorage.unity3d.com/unity/3262fb3b0716/UnityDownloadAssistant-2018.2.14f1.exe'>Windows</a> 
+| <a href='https://netstorage.unity3d.com/unity/3262fb3b0716/UnityDownloadAssistant-2018.2.14f1.dmg'>MacOS</a>
+| <a href='https://unity.com/'>Others</a>.
+</div>
+
+## Download links
+**You will find the latest download link [here](https://github.com/Urbanotopus/urbanotopus/releases).**
+And a browser demo (WebGL) <a href='https://urbanotopus.github.io/urbanotopus/'>here</a>.
+
+## Other links
+- Our [specs sheets](https://docs.google.com/document/d/1UJg4NzmXjWdLV1RQkpC4ds9JVwjxbo_du1KpwaHBMdI/edit?usp=sharing);
+- Our [task dashboard](https://docs.google.com/spreadsheets/d/1ssWvanr6t2i7n3NQZzfvbAibnp2f_unJ5_dDhjydA1w/edit?usp=sharing).
 
 ## Documentation
 <!-- Begin TOC --><div class="toctree-wrapper compound">
@@ -21,6 +35,10 @@
 <li class="toctree-l2"><a class="reference internal" href="https://urbanotopus.readthedocs.io/en/latest/architecture.html#les-choix-technologiques">Les choix technologiques</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="https://urbanotopus.readthedocs.io/en/latest/conventions.html">Conventions du projet</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="https://urbanotopus.readthedocs.io/en/latest/conventions/task-distribution.html">La répartition des tâches</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="https://urbanotopus.readthedocs.io/en/latest/contributing.html">Guides de contribution</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="https://urbanotopus.readthedocs.io/en/latest/contributing/editorconfig.html">EditorConfig</a></li>
 <li class="toctree-l2"><a class="reference internal" href="https://urbanotopus.readthedocs.io/en/latest/contributing/coding-style.html">Style de codage</a></li>
@@ -32,6 +50,7 @@
 </li>
 <li class="toctree-l1"><a class="reference internal" href="https://urbanotopus.readthedocs.io/en/latest/development_guides.html">Guides de développement</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="https://urbanotopus.readthedocs.io/en/latest/development_guides/visual-novel-scenes.html">Scènes de Visual Novel</a></li>
+<li class="toctree-l2"><a class="reference internal" href="https://urbanotopus.readthedocs.io/en/latest/development_guides/choice-management.html">Gestion des décisions</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="https://urbanotopus.readthedocs.io/en/latest/deployment.html">Déploiement</a></li>
@@ -40,30 +59,26 @@
 </div><!-- End TOC -->
 
 
-## How does this repository works
-1. Pull requests are created to write changes to master;
-1. They get accepted and merged;
-1. Travis builds the documentation and deploys it to the `gh-pages` branch;
-1. GitHub builds the pages and the changes get published to [urbanotopus.vanille.bid](https://urbanotopus.vanille.bid).
-
-
-## Development
-
-1. Install Unity 2018 [for Windows](https://netstorage.unity3d.com/unity/38bd7dec5000/UnityDownloadAssistant-2018.2.11f1.exe) 
-| [for MacOS](https://netstorage.unity3d.com/unity/38bd7dec5000/UnityDownloadAssistant-2018.2.11f1.dmg)
-| [for others](https://unity.com/);
+## How to build the docs
+### Hand written documentation (sphinx)
+#### Installation of the requirements
 1. Install [Python 3.7](https://www.python.org/downloads/release/python-337/);
 1. Create and activate a [python virtual environment](https://docs.python.org/3/library/venv.html);
 1. Install the requirements through `pip install -r requirements.txt`;
-1. Edit the files under the [docs](docs/) folder;
-1. Build or rebuild the docs by running `make html`;
+1. (Optional) Edit the files under the [docs](docs/) folder;
+
+#### Building the sphinx documentation
+1. Build or rebuild the docs by running `make html` in the root project directory;
 1. Open your web-browser to `build/html/index.html`.
 
+### Source code documentation (doxygen)
+#### Installation of the requirements
+Install doxygen through this [link](http://www.stack.nl/~dimitri/doxygen/download.html)
+or using your preferred Unix package manager.
 
-## How to build the docs
-Reminder: to build or rebuild the docs, 
-**run `make html` from the project's root directory**.
-
+#### Generating the doxygen documentation
+1. Build or rebuild by running `doxygen` in the root project directory.
+1. Open your web-browser to `html/index.html`.
 
 ## Resources
 - [**How to document a project using Sphinx**](https://pythonhosted.org/an_example_pypi_project/sphinx.html#restructured-text-rest-resources);

@@ -6,16 +6,26 @@
 Bienvenue sur la documentation d'urbanotopus !
 ==============================================
 
-Documentation du code C#, doxygen `disponible ici <doxygens/annotated.html>`_.
+.. topic:: Documentation générée
 
-.. toctree::
-    :maxdepth: 2
-    :caption: Contenu
+    La documentation doxygen générée du code C#, est `disponible ici <doxygens/annotated.html>`_.
 
-    introduction
-    conventions
-    contributing
-    development_guides
-    deployment
-    resources
+.. topic:: Téléchargement et démo
+
+    Les liens de téléchargement sont disponibles `ici <https://github.com/Urbanotopus/urbanotopus/releases>`_,
+    vous pouvez aussi directement lancer le jeu depuis votre navigateur web
+    `ici <https://urbanotopus.github.io/urbanotopus/>`_.
+
+
+.. topic:: Contenu
+
+    .. toctree::
+        :maxdepth: 2
+
+        introduction
+        conventions
+        contributing
+        development_guides
+        deployment
+        resources
 
