@@ -72,6 +72,7 @@ install:
 script:
   - make html
   - python rebuild_readme.py
+  - doxygen
   - mkdir -p ${BUILD_PATH}
   - cp -Rv build/* $BUILD_PATH
   - cp -Rv docs/* $BUILD_PATH
