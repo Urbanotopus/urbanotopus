@@ -4,12 +4,18 @@ python:
   - 3.5
   - 3.6
 
+addons:
+  apt:
+    packages:
+      - doxygen
+
 cache:
   pip: true
   directories:
     - $HOME/.cache/pre-commit
     - $HOME/.pre-commit
     - $HOME/Library/Caches/Homebrew
+    - $HOME/.ccache
 
 env:
   global:
@@ -56,10 +62,12 @@ install:
       eval "$(pyenv init -)"
       pyenv install --skip-existing --keep --verbose ${TRAVIS_PYTHON_VERSION}
       pyenv shell ${TRAVIS_PYTHON_VERSION}
-      python -V
+      brew install -y https://raw.githubusercontent.com/Homebrew/homebrew-core/5b680fb58fedfb00cd07a7f69f5a621bb9240f3b/Formula/doxygen.rb;
     fi
   - pip install -U pip setuptools wheel
   - pip install -r requirements.txt
+  - python -V
+  - doxygen --version
 
 script:
   - make html
