@@ -1,9 +1,3 @@
----
-name: Changements du code ou projet (French)
-about: Vous avez fait des changements de code ou autres qui sont mineurs ou majeurs.
-
----
-
 ### Issue associée <!-- required -->
 Closes #  <!-- le numéro à fermer ; gardez le mot 'Closes' en anglais -->
 
