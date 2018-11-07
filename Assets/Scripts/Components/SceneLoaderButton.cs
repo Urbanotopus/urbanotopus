@@ -41,7 +41,7 @@ namespace Components {
         /// </summary>
         private void OnClick() {
             YarnSceneManager.CurrentYarnScript = this.YarnSceneToLoad;
-            SceneManager.LoadScene(_YARN_SCENE_LOADER);
+            InternalScenesManager.LoadScene(_YARN_SCENE_LOADER);
         }
     }
 }

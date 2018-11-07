@@ -27,7 +27,7 @@ namespace Menu {
         /// </summary>
         protected override void OnClick() {
             SaveGameManager.LoadLatest();
-            SceneManager.LoadScene(InternalScenesManager.Office);
+            InternalScenesManager.LoadScene(InternalScenesManager.Office);
         }
     }
 }
