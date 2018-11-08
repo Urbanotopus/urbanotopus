@@ -68,6 +68,9 @@ namespace Managers {
                 // Serialize the current game.
                 new BinaryFormatter().Serialize(fp, _currentGame);
             }
+
+            // Log the action
+            Debug.Log("The game was saved.");
         }
 
         /// <summary>
@@ -83,6 +86,9 @@ namespace Managers {
             using (var fp = File.Open(SavePath, FileMode.Open)) {
                 _currentGame = (GameState) new BinaryFormatter().Deserialize(fp);
             }
+
+            // Log the action
+            Debug.Log("The game was loaded.");
         }
 
         /// <summary>

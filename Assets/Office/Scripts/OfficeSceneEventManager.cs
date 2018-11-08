@@ -16,10 +16,16 @@ namespace Office.Scripts {
     /// </summary>
     public class OfficeSceneEventManager : MonoBehaviour {
         /// <summary>
-        /// The canvas to control, from which we will get the buttons
-        /// and toggle the visibility whenever the user requests it.
+        /// The canvas to control, from which we will
+        /// toggle the visibility whenever the user requests it.
         /// </summary>
         public GameObject ManagedContainerCanvas;
+
+        /// <summary>
+        /// The list of buttons to listen to,
+        /// that will trigger the interface toggle.
+        /// </summary>
+        public HoverableButton[] ManagedButtons;
 
         /// <summary>
         /// An array of closeable canvas that will get closed whenever
@@ -34,7 +40,7 @@ namespace Office.Scripts {
         public Button[] CloseCanvasButtons;
 
         /// <summary>
-        /// <see cref="ManagedContainerCanvas"/> buttons colors to be set.
+        /// <see cref="ManagedButtons"/> buttons colors to be set.
         /// </summary>
         private static readonly ColorBlock ButtonsColorBlock = new ColorBlock() {
             normalColor = new Color32(byte.MaxValue, byte.MaxValue, byte.MaxValue, byte.MaxValue),
@@ -47,12 +53,12 @@ namespace Office.Scripts {
 
         /// <summary>
         /// The audio source component to invoke
-        /// whenever the user hovers a button of <see cref="ManagedContainerCanvas"/>.
+        /// whenever the user hovers a button of <see cref="ManagedButtons"/>.
         /// </summary>
         private AudioSource _onHoverAudioSource;
 
         /// <summary>
-        /// Toggle the given canvas's visibility (<see cref="ManagedContainerCanvas"/>).
+        /// Toggle the given canvas's visibility (<see cref="ManagedButtons"/>).
         /// </summary>
         /// <param name="status"></param>
         private void ToggleInterface(bool status) {
@@ -77,15 +83,15 @@ namespace Office.Scripts {
         }
 
         /// <summary>
-        /// Whenever the user clicks on a button of <see cref="ManagedContainerCanvas"/>,
-        /// is toggle <see cref="ManagedContainerCanvas"/>'s visibility.
+        /// Whenever the user clicks on a button of <see cref="ManagedButtons"/>,
+        /// it toggles <see cref="ManagedContainerCanvas"/>'s visibility.
         /// </summary>
         private void OnCanvasOpenerButtonClick() {
             this.ToggleInterface(false);
         }
 
         /// <summary>
-        /// Whenever the user hovers a button of <see cref="ManagedContainerCanvas"/>,
+        /// Whenever the user hovers a button of <see cref="ManagedButtons"/>,
         /// play the given <see cref="_onHoverAudioSource"/> sound.
         /// </summary>
         private void _onButtonHover() {
@@ -100,7 +106,7 @@ namespace Office.Scripts {
         ///         Retrieving the set-up audio hover source;
         ///     </item>
         ///     <item>
-        ///         Setting-up <see cref="ManagedContainerCanvas"/>
+        ///         Setting-up <see cref="ManagedButtons"/>
         ///         buttons events (click and hover) and colors.
         ///     </item>
         ///     <item>
@@ -124,11 +130,15 @@ namespace Office.Scripts {
                 throw new NullReferenceException("Missing audio source component.");
             }
 
-            // Set-up buttons events (click and hover) and colors
+            // Set-up buttons hover events and colors
             foreach (var childButton in managedButtons) {
-                childButton.onClick.AddListener(this.OnCanvasOpenerButtonClick);
                 childButton.onHover.AddListener(this._onButtonHover);
                 childButton.colors = ButtonsColorBlock;
+            }
+
+            // Set-up buttons click events on concerned buttons
+            foreach (var managedButton in this.ManagedButtons) {
+                managedButton.onClick.AddListener(this.OnCanvasOpenerButtonClick);
             }
 
             foreach (var closeButton in this.CloseCanvasButtons) {
