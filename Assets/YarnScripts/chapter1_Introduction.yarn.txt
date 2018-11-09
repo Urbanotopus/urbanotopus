@@ -58,8 +58,7 @@ Professeur Sorbier: En l’occurence tu as modifié mon avis, et donc celui de
 -> Que voulez-vous dire ?
     << register_choice Globals 1 2 2 >>
     Alice Larrson: Je ne comprends pas.
-    Alice Larrson: En quoi mes propos sont ils si important ?
-    Alice Larrson: Qu’entendez vous par là ?
+    Alice Larrson: En quoi mes propos sont ils si important ? Qu’entendez vous par là ?
     Professeur Sorbier: Je veux dire que tes paroles modifient l’opinion des gens qui t’entourent.
     Professeur Sorbier: De même tes actes vont changer ton environnement.
     Professeur Sorbier: Tout ça est à prendre en compte.
@@ -123,7 +122,7 @@ Professeur Sorbier: Souvent la solution parfaite n’existe pas et il faut se 
 -> C'est déprimant...
     << register_choice Globals 1 5 1 >>
     << Shake @ Alice Larrson >>
-    Alice Larrson: 5 ans d’étude pour apprendre que je ne pourrais pas faire mon boulot correctement…
+    Alice Larrson: 5 ans d’études pour apprendre que je ne pourrais pas faire mon boulot correctement…
     Alice Larrson: Cette nouvelle est déprimante.
     Professeur Sorbier: Il ne faut pas voir ça comme ça.
 -> Ça me plait !
