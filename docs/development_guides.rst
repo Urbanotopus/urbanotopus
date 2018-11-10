@@ -10,3 +10,4 @@ et vous assister dans le développement de nouvelles fonctionnalités.
 
    development_guides/visual-novel-scenes
    development_guides/choice-management
+   development_guides/loading-scenes

@@ -22,7 +22,7 @@ namespace Menu {
         protected override void OnClick() {
             SaveGameManager.ResetData();
             YarnSceneManager.CurrentYarnScript = this.YarnSceneToLoad;
-            SceneManager.LoadScene(InternalScenesManager.VisualNovel);
+            InternalScenesManager.LoadScene(InternalScenesManager.VisualNovel);
         }
     }
 }

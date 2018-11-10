@@ -1,6 +1,5 @@
 using System;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using Yarn.Unity;
 
 namespace Managers {
@@ -48,7 +47,7 @@ namespace Managers {
         /// </summary>
         private void Update() {
             if (Input.GetButtonUp("Cancel")) {
-                SceneManager.LoadScene(InternalScenesManager.Office);
+                InternalScenesManager.LoadScene(InternalScenesManager.Office);
             }
         }
     }

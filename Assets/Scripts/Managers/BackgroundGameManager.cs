@@ -1,7 +1,5 @@
 ﻿using System.IO;
-using UnityEditor;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 namespace Managers {
     /// <summary>
@@ -55,7 +53,7 @@ namespace Managers {
         /// </summary>
         private void FixedUpdate() {
             if (Input.GetKey(KeyCode.F12)) {
-                SceneManager.LoadScene(InternalScenesManager.MainMenu);
+                InternalScenesManager.LoadScene(InternalScenesManager.MainMenu);
             }
             else if (Input.GetKey(KeyCode.F6)) {
                 SaveGameManager.Save();

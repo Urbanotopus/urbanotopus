@@ -1,5 +1,4 @@
-﻿using UnityEditor;
-using UnityEngine.SceneManagement;
+﻿using Managers;
 
 namespace Components {
     /// <summary>
@@ -18,7 +17,7 @@ namespace Components {
         /// Load the gaven scene when the user clicked on the element.
         /// </summary>
         protected override void OnClick() {
-            SceneManager.LoadScene(this.SceneToLoad);
+            InternalScenesManager.LoadScene(this.SceneToLoad);
         }
     }
 }

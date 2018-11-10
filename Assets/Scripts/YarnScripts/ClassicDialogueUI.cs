@@ -30,8 +30,6 @@ using UnityEngine.UI;
 using System.Text;
 using System.Collections.Generic;
 using Managers;
-using UnityEditor;
-using UnityEngine.SceneManagement;
 
 namespace Yarn.Unity.Example {
     /// Displays dialogue lines to the player, and sends
@@ -255,7 +253,7 @@ namespace Yarn.Unity.Example {
                 gameControlsContainer.gameObject.SetActive(true);
             }
 
-            SceneManager.LoadScene(InternalScenesManager.Office);
+            InternalScenesManager.LoadScene(InternalScenesManager.Office);
 
             yield break;
         }

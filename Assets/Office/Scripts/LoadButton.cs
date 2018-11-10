@@ -1,6 +1,5 @@
 using Components;
 using Managers;
-using UnityEngine.SceneManagement;
 
 namespace Office.Scripts {
     /// <inheritdoc />
@@ -9,10 +8,11 @@ namespace Office.Scripts {
     /// Manages the action of loading a quick save.
     /// </summary>
     public class LoadButton : HoverableButton {
+        /// <inheritdoc />
         /// <summary>
         /// The load button of the 'Office' scene.
         /// Called when this component gets initialized,
-        /// it instructs the base instance to call <see cref="LoadSaveGameAndReload"/>,
+        /// it instructs the base instance to call <see cref="M:Office.Scripts.LoadButton.LoadSaveGameAndReload" />,
         /// which loads the latest save game and reload the scene (the office).
         /// </summary>
         protected override void Start() {
@@ -25,7 +25,7 @@ namespace Office.Scripts {
         /// </summary>
         private static void LoadSaveGameAndReload() {
             SaveGameManager.LoadLatest();
-            SceneManager.LoadScene(InternalScenesManager.Office);
+            InternalScenesManager.LoadScene(InternalScenesManager.Office);
         }
     }
 }
