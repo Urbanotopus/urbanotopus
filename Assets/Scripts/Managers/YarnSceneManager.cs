@@ -56,6 +56,7 @@ namespace Managers {
         /// </summary>
         public static void LoadYarn(TextAsset yarnAsset) {
             CurrentYarnScript = yarnAsset;
+            SaveGameManager.GetCurrentGame().PlayedChapters.Add(yarnAsset.name);
             InternalScenesManager.LoadScene(InternalScenesManager.VisualNovel);
         }
     }

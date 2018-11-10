@@ -48,11 +48,11 @@ namespace Components {
 
         private void Awake() {
             var id = 1;
-            var lastPlayedName = SaveGameManager.GetCurrentGame().LastPlayedChapter;
+            var playedChapters = SaveGameManager.GetCurrentGame().PlayedChapters;
             var previousWasCompleted = false;
 
             foreach (var chapter in this.ListOfChapters) {
-                var isCompleted = chapter.Name.Equals(lastPlayedName);
+                var isCompleted = playedChapters.Contains(chapter.YarnAsset.name);
                 this.AddChapter(id++, chapter, isCompleted);
 
                 if (previousWasCompleted) {

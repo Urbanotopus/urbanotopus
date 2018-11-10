@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace Managers {
     /// <summary>
     /// Manages the state of a game, containing all serializable
@@ -7,6 +9,6 @@ namespace Managers {
     public class GameState {
         public ChoiceHistory ChoiceHistory = new ChoiceHistory();
         public float TextSpeed = 0.004f;
-        public string LastPlayedChapter = "nil";
+        public HashSet<string> PlayedChapters = new HashSet<string>();
     }
 }
