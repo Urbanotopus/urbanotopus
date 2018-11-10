@@ -6,5 +6,6 @@ namespace Managers {
     [System.Serializable]
     public class GameState {
         public ChoiceHistory ChoiceHistory = new ChoiceHistory();
+        public float TextSpeed = 0.004f;
     }
 }

@@ -74,8 +74,7 @@ namespace Yarn.Unity.Example {
         /// dialogue is active and to restore them when dialogue ends
         public RectTransform gameControlsContainer;
 
-        void Awake ()
-        {
+        void Awake () {
             // if Ropework manager is null, then find it
             if ( ropework == null ) { ropework = FindObjectOfType<Ropework.RopeworkManager>(); }
 
@@ -92,6 +91,9 @@ namespace Yarn.Unity.Example {
             // Hide the continue prompt if it exists
             if (continuePrompt != null)
                 continuePrompt.SetActive (false);
+
+            // Set the text speed from user settings
+            this.textSpeed = SaveGameManager.GetCurrentGame().TextSpeed;
         }
 
         /// Show a line of dialogue, gradually

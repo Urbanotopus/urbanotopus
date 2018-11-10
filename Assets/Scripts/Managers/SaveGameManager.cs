@@ -34,6 +34,7 @@ namespace Managers {
         /// <summary>
         /// If it doesn't exist yet, it flags itself as existing
         /// and as not to be destroyed on load (no matter what).
+        /// It will also pre-load the latest save game if any.
         ///
         /// Otherwise, it flags itself as to be killed (destroyed).
         /// </summary>
@@ -44,6 +45,10 @@ namespace Managers {
 
                 SavePath = Path.Combine(
                     Application.persistentDataPath, "savedGames.gd");
+
+                if (SaveGameExists()) {
+                    LoadLatest();
+                }
             }
             else {
                 Destroy(this.gameObject);
@@ -95,7 +100,9 @@ namespace Managers {
         /// Reset the current game state.
         /// </summary>
         public static void ResetData() {
-            _currentGame = new GameState();
+            _currentGame = new GameState {
+                TextSpeed = _currentGame.TextSpeed
+            };
         }
 
         /// <summary>
