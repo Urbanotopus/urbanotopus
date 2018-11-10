@@ -27,6 +27,7 @@ namespace Components {
         private void AddChapter(int id, Chapter chapter, bool isCompleted) {
             var newChapterEntry = Instantiate(this.UIChapterEntryPrefab);
             var image = newChapterEntry.GetComponent<Image>();
+            var button = newChapterEntry.GetComponent<Button>();
             var text = newChapterEntry.GetComponentInChildren<Text>();
             newChapterEntry.transform.SetParent(this.ContainerContentPanel);
 
@@ -39,6 +40,10 @@ namespace Components {
                 image.color = this.UnCompletedColor;
                 text.color = this.UnCompletedTextColor;
             }
+
+            button.onClick.AddListener(() => {
+                YarnSceneManager.LoadYarn(chapter.YarnAsset);
+            });
         }
 
         private void Awake() {
