@@ -1,7 +1,5 @@
 using Components;
 using Managers;
-using UnityEngine;
-using UnityEngine.SceneManagement;
 
 namespace Office.Scripts {
     /// <inheritdoc />
@@ -24,7 +22,7 @@ namespace Office.Scripts {
         /// </summary>
         private static void PromptQuit() {
             // TODO: we need to put a prompt canvas here
-            SceneManager.LoadScene(InternalScenesManager.MainMenu);
+            InternalScenesManager.LoadScene(InternalScenesManager.MainMenu);
         }
     }
 }

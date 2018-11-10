@@ -18,6 +18,8 @@ namespace Managers {
         /// </summary>
         /// <param name="name"></param>
         public static void LoadScene(string name) {
+            Debug.LogFormat("Loading: {0}", name);
+
             if (_instance && _instance.LoadingCanvas) {
                 _instance.LoadingCanvas.gameObject.SetActive(true);
                 SceneManager.LoadSceneAsync(name);
