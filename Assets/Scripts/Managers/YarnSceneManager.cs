@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Yarn.Unity;
 
 namespace Managers {
@@ -39,6 +40,16 @@ namespace Managers {
             // Set the dialogue to the given Yarn script resource and start the dialogue
             dialogueRunner.AddScript(CurrentYarnScript.text, CurrentYarnScript.name);
             dialogueRunner.StartDialogue();
+        }
+
+        /// <summary>
+        /// Whenever the user hit 'cancel',
+        /// it gets redirected to the office scene.
+        /// </summary>
+        private void Update() {
+            if (Input.GetButtonUp("Cancel")) {
+                SceneManager.LoadScene(InternalScenesManager.Office);
+            }
         }
     }
 }
