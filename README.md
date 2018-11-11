@@ -26,7 +26,7 @@ for <a href='https://netstorage.unity3d.com/unity/3262fb3b0716/UnityDownloadAssi
 </div>
 
 ## Download links
-**You will find the latest download link [here](https://github.com/Urbanotopus/urbanotopus/releases).**
+**You will find the latest download link [here](https://github.com/Urbanotopus/urbanotopus/releases) (for Windows, Linux, Mac, Android and iOS).**
 And a browser demo (WebGL) <a href='https://urbanotopus.github.io/urbanotopus/'>here</a>.
 
 ## Other links

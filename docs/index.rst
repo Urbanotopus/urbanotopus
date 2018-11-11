@@ -8,7 +8,7 @@ Bienvenue sur la documentation d'urbanotopus !
 
 .. topic:: Documentation générée
 
-    La documentation doxygen générée du code C#, est `disponible ici <doxygens/annotated.html>`_.
+    La documentation doxygen générée du code C#, est `disponible ici <doxygen/annotated.html>`_.
 
 .. topic:: Téléchargement et démo
 

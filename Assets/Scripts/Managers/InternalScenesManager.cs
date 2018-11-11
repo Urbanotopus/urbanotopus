@@ -2,12 +2,18 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 namespace Managers {
+    /// <summary>
+    /// The internal references of all the available scenes.
+    /// Also controls the scene loading and the loading states,
+    /// allowing async scene loadings that are not freezing the user's interface
+    /// for better feedback.
+    /// </summary>
     public class InternalScenesManager : MonoBehaviour {
         private static InternalScenesManager _instance;
 
-        public const string MainMenu = "MainMenuScene";
-        public const string Office = "OfficeScene";
-        public const string VisualNovel = "VisualNovelScene";
+        public static string MainMenu = "MainMenuScene";
+        public static string Office = "OfficeScene";
+        public static string VisualNovel = "VisualNovelScene";
 
         public Canvas LoadingCanvas;
 
