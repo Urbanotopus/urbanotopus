@@ -1473,6 +1473,7 @@ GameObject:
   - component: {fileID: 749214834}
   - component: {fileID: 749214833}
   - component: {fileID: 749214831}
+  - component: {fileID: 749214836}
   - component: {fileID: 749214832}
   m_Layer: 0
   m_Name: Quitter
@@ -1670,6 +1671,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &749214836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 749214829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6ed75cbd3fc4c98a2d60bc7c85abe24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &914679788
 Prefab:
   m_ObjectHideFlags: 0
