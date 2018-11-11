@@ -39,7 +39,7 @@ Professeur Sorbier: Mais c'est très simple, cliques sur un des cadres situé 
     Alice Larrson: Je préfère simplement être à l'écoute et attendre mon tour de parole !
     Professeur Sorbier: Hahaha ! Je vois ce que tu veux dire.
     Professeur Sorbier: Mais ne t'inquiète pas, ta timidité ne sera pas un problème !
--> Merci pour votre acueil professeur Sorbier.
+-> Merci pour votre accueil professeur Sorbier.
     << register_choice Globals 1 1 2 >>
     Alice Larrson: Merci beaucoup pour votre accueil professeur Sorbier.
     Alice Larrson: J’ai hâte de me mettre au travail !
@@ -74,7 +74,7 @@ Professeur Sorbier: Certaines discussions sont vraiment anodines et ne modifie
     << register_choice Globals 1 3 2 >>
     << Shake @ Alice Larrson >>
     Alice Larrson: Je ne suis pas sûre d'être prête.
-    Alice Larrson: C’est énormément de responsabilité, je ne pense pas pouvoir tenir tant de poids sur mes épaules…
+    Alice Larrson: C’est énormément de responsabilité, je ne pense pas pouvoir supporter tant de poids sur mes épaules…
     Professeur Sorbier: Je suis sur que tu t’y feras vite.
     Professeur Sorbier: C’est un peu difficile au début, mais c’est un travail passionnant !
 
