@@ -68,9 +68,13 @@ namespace Office.Scripts {
         /// <summary>
         /// Close all closeable canvas if, and only if the buttons are hidden.
         /// </summary>
-        private void CloseAllCanvas() {
+        /// <returns>
+        /// <code>true</code> if the canvas were closed;
+        /// <code>false</code> if there was nothing to do.
+        /// </returns>
+        private bool CloseAllCanvas() {
             if (this.ManagedContainerCanvas.activeSelf) {
-                return;
+                return false;
             }
 
             // Hide any canvas parent of this component
@@ -80,6 +84,15 @@ namespace Office.Scripts {
 
             // Show the buttons back to the user
             this.ToggleInterface(true);
+            return true;
+        }
+
+        /// <summary>
+        /// Redefines <see cref="CloseAllCanvas"/> without any value returned,
+        /// to allow a event listener usage.
+        /// </summary>
+        private void OnClickCloseAllCanvas() {
+            this.CloseAllCanvas();
         }
 
         /// <summary>
@@ -142,17 +155,25 @@ namespace Office.Scripts {
             }
 
             foreach (var closeButton in this.CloseCanvasButtons) {
-                closeButton.onClick.AddListener(this.CloseAllCanvas);
+                closeButton.onClick.AddListener(this.OnClickCloseAllCanvas);
             }
         }
 
         /// <summary>
         /// Whenever the Cancel button is pressed and <see cref="ManagedContainerCanvas"/>
         /// is hidden, we show it again and hide the other opened canvas.
+        ///
+        /// If no canvas has been closed, it means we have to return to the main menu.
         /// </summary>
         private void Update () {
-            if (Input.GetButtonUp("Cancel")) {
-                this.CloseAllCanvas();
+            if (!Input.GetButtonUp("Cancel")) {
+                return;
+            }
+
+            // If no canvas has been closed,
+            // prompt the user to quit to the main menu.
+            if (!this.CloseAllCanvas()) {
+                QuitButton.PromptQuit();
             }
         }
     }

@@ -20,7 +20,7 @@ namespace Office.Scripts {
         /// <summary>
         /// Prompt to quit the scene.
         /// </summary>
-        private static void PromptQuit() {
+        public static void PromptQuit() {
             // TODO: we need to put a prompt canvas here
             InternalScenesManager.LoadScene(InternalScenesManager.MainMenu);
         }
