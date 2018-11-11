@@ -13,11 +13,6 @@ namespace Components {
     /// </summary>
     public class SceneLoaderButton : MonoBehaviour {
         /// <summary>
-        /// The scene that is capable of loading any supplied Yarn script.
-        /// </summary>
-        private const string _YARN_SCENE_LOADER = "VisualNovelScene";
-
-        /// <summary>
         /// The scene to load whenever the button is pressed.
         /// </summary>
         public TextAsset YarnSceneToLoad;
@@ -40,8 +35,7 @@ namespace Components {
         /// Load the Yarn manager (Visual Novel) scene.
         /// </summary>
         private void OnClick() {
-            YarnSceneManager.CurrentYarnScript = this.YarnSceneToLoad;
-            InternalScenesManager.LoadScene(_YARN_SCENE_LOADER);
+            YarnSceneManager.LoadYarn(this.YarnSceneToLoad);
         }
     }
 }

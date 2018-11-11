@@ -11,7 +11,7 @@ namespace Managers {
         /// <summary>
         /// The Yarn script text asset to load into the visual novel scene.
         /// </summary>
-        public static TextAsset CurrentYarnScript = null;
+        public static TextAsset CurrentYarnScript;
 
         /// <summary>
         /// Loads a given Yarn script that is set on <see cref="CurrentYarnScript" />
@@ -49,6 +49,15 @@ namespace Managers {
             if (Input.GetButtonUp("Cancel")) {
                 InternalScenesManager.LoadScene(InternalScenesManager.Office);
             }
+        }
+
+        /// <summary>
+        /// Load the Yarn manager (Visual Novel) scene.
+        /// </summary>
+        public static void LoadYarn(TextAsset yarnAsset) {
+            CurrentYarnScript = yarnAsset;
+            SaveGameManager.GetCurrentGame().PlayedChapters.Add(yarnAsset.name);
+            InternalScenesManager.LoadScene(InternalScenesManager.VisualNovel);
         }
     }
 }

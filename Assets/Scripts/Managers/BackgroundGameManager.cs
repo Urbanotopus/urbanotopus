@@ -51,20 +51,20 @@ namespace Managers {
         ///     </item>
         /// </list>
         /// </summary>
-        private void FixedUpdate() {
-            if (Input.GetKey(KeyCode.F12)) {
+        private void Update() {
+            if (Input.GetKeyUp(KeyCode.F12)) {
                 InternalScenesManager.LoadScene(InternalScenesManager.MainMenu);
             }
-            else if (Input.GetKey(KeyCode.F6)) {
+            else if (Input.GetKeyUp(KeyCode.F6)) {
                 SaveGameManager.Save();
             }
-            else if (Input.GetKey(KeyCode.F7)) {
+            else if (Input.GetKeyUp(KeyCode.F7)) {
                 SaveGameManager.LoadLatest();
             }
-            else if (Input.GetKey(KeyCode.F8)) {
+            else if (Input.GetKeyUp(KeyCode.F8)) {
                 File.Delete(SaveGameManager.SavePath);
             }
-            else if (Input.GetKey(KeyCode.F9)) {
+            else if (Input.GetKeyUp(KeyCode.F9)) {
                 Debug.Log(SaveGameManager.GetCurrentGame().ChoiceHistory);
             }
         }
