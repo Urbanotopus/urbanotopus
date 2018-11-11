@@ -6,16 +6,19 @@ init:
   - SET PATH=%PYTHON%;%PYTHON%\Scripts;%PATH%
 
 install:
+  - choco install -y doxygen.portable
   - python -m pip install setuptools wheel
   - python -m pip install -r requirements.txt
 
 build: false
 
 test_script:
+  - doxygen --version
   - python -V
   - python -m pip -V
   - make html
   - python rebuild_readme.py
+  - doxygen
 
 cache:
   - '%LOCALAPPDATA%\pip\Cache'
