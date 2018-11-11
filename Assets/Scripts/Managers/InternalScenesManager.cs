@@ -10,6 +10,7 @@ namespace Managers {
     /// </summary>
     public class InternalScenesManager : MonoBehaviour {
         private static InternalScenesManager _instance;
+
         public static string MainMenu = "MainMenuScene";
         public static string Office = "OfficeScene";
         public static string VisualNovel = "VisualNovelScene";
@@ -35,11 +36,27 @@ namespace Managers {
         }
 
         /// <summary>
+        /// Whenever a scene is fully loaded, disable the loading area.
+        /// </summary>
+        /// <param name="scene">Inherited, unused.</param>
+        /// <param name="mode">Inherited, unused.</param>
+        private static void OnSceneLoaded(Scene scene, LoadSceneMode mode) {
+            _instance.LoadingCanvas.gameObject.SetActive(false);
+        }
+
+        /// <summary>
         /// Assign what scene manager component to look for
         /// to find a loading zone canvas.
         /// </summary>
         private void Start() {
-            _instance = this;
+            if (!_instance) {
+                DontDestroyOnLoad(this.gameObject);
+                _instance = this;
+                SceneManager.sceneLoaded += OnSceneLoaded;
+            }
+            else {
+                Destroy(this.gameObject);
+            }
         }
     }
 }
