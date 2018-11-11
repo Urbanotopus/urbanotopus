@@ -21,8 +21,7 @@ namespace Menu {
         /// </summary>
         protected override void OnClick() {
             SaveGameManager.ResetData();
-            YarnSceneManager.CurrentYarnScript = this.YarnSceneToLoad;
-            InternalScenesManager.LoadScene(InternalScenesManager.VisualNovel);
+            YarnSceneManager.LoadYarn(this.YarnSceneToLoad);
         }
     }
 }
