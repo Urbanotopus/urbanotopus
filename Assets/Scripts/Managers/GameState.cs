@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Runtime.Serialization;
 
 namespace Managers {
     /// <summary>
@@ -8,7 +9,11 @@ namespace Managers {
     [System.Serializable]
     public class GameState {
         public ChoiceHistory ChoiceHistory = new ChoiceHistory();
+
+        [OptionalField(VersionAdded=2)]
         public float TextSpeed = 0.004f;
+
+        [OptionalField(VersionAdded=2)]
         public HashSet<string> PlayedChapters = new HashSet<string>();
     }
 }

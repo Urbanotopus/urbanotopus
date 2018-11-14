@@ -89,7 +89,13 @@ namespace Managers {
 
             // Open, and load the file for deserialization.
             using (var fp = File.Open(SavePath, FileMode.Open)) {
-                _currentGame = (GameState) new BinaryFormatter().Deserialize(fp);
+                try {
+                    _currentGame = (GameState)new BinaryFormatter().Deserialize(fp);
+                }
+                catch (EndOfStreamException) {
+                    // ignore error
+                    Debug.LogError("The game state was reset.");
+                }
             }
 
             // Log the action
