@@ -6,7 +6,7 @@ namespace Menu {
     /// This class manages a options canvas,
     /// and will disable itself if the user hits "Cancel" (e.g.: escape key).
     /// </summary>
-    public class OptionsCanvas : MonoBehaviour {
+    public class OptionsCanvas : MenuForegroundCanvas {
         /// <summary>
         /// Disable itself (<code>gameObject.SetActive(false)</code>)
         /// if the user hits "Cancel".
