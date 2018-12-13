@@ -4,6 +4,11 @@ using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 namespace Components {
+    /// <summary>
+    /// A gameobject managing a button that ignores the overlaping UI objects.
+    /// It detects over and click from the button position and the cursor/ pointer
+    /// position.
+    /// </summary>
     public class UIOverlappingButton : MonoBehaviour {
         /// <summary>
         /// The attached <see cref="GraphicRaycaster"/> component.
@@ -33,8 +38,7 @@ namespace Components {
         /// Invoke the <see cref="Button.onClick"/> event whenever the user
         /// is pushing the mouse button over the GUI button.
         /// </summary>
-        private void Update()
-        {
+        private void Update() {
             // Do nothing if the user is not clicking
             if (!Input.GetKeyUp(KeyCode.Mouse0)) {
                 return;
