@@ -26,6 +26,5 @@ Bienvenue sur la documentation d'urbanotopus !
         conventions
         contributing
         development_guides
-        deployment
         resources
 
