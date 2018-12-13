@@ -6,7 +6,7 @@ init:
   - SET PATH=%PYTHON%;%PYTHON%\Scripts;%PATH%
 
 install:
-  - choco install -y doxygen.portable
+  - choco install -y doxygen.install
   - python -m pip install setuptools wheel
   - python -m pip install -r requirements.txt
 
