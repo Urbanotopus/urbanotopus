@@ -52,23 +52,3 @@ Et enfin, un bouton dans le coin du haut à gauche, permettant de retourner au m
     :figclass: text-center small
 
     Capture d'écran de l'interface principale
-
-
-Le début de la partie
-+++++++++++++++++++++
-\-
-
-
-La pleine partie
-++++++++++++++++
-\-
-
-
-La fin de la partie
-+++++++++++++++++++
-\-
-
-
-Le paramétrage d’une partie
----------------------------
-\-

@@ -35,16 +35,10 @@ And a browser demo (WebGL) <a href='https://urbanotopus.github.io/urbanotopus/'>
 
 ## Documentation
 <!-- Begin TOC --><div class="toctree-wrapper compound">
-<p class="caption"><span class="caption-text">Contenu</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="https://urbanotopus.readthedocs.io/en/latest/introduction.html">Le jeu</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="https://urbanotopus.readthedocs.io/en/latest/introduction.html#le-fonctionnement">Le fonctionnement</a></li>
 <li class="toctree-l2"><a class="reference internal" href="https://urbanotopus.readthedocs.io/en/latest/introduction.html#le-deroulement-dune-partie">Le déroulement d’une partie</a></li>
-<li class="toctree-l2"><a class="reference internal" href="https://urbanotopus.readthedocs.io/en/latest/introduction.html#le-parametrage-dune-partie">Le paramétrage d’une partie</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="https://urbanotopus.readthedocs.io/en/latest/architecture.html">Architecture</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="https://urbanotopus.readthedocs.io/en/latest/architecture.html#les-choix-technologiques">Les choix technologiques</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="https://urbanotopus.readthedocs.io/en/latest/conventions.html">Conventions du projet</a><ul>
@@ -63,9 +57,9 @@ And a browser demo (WebGL) <a href='https://urbanotopus.github.io/urbanotopus/'>
 <li class="toctree-l1"><a class="reference internal" href="https://urbanotopus.readthedocs.io/en/latest/development_guides.html">Guides de développement</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="https://urbanotopus.readthedocs.io/en/latest/development_guides/visual-novel-scenes.html">Scènes de Visual Novel</a></li>
 <li class="toctree-l2"><a class="reference internal" href="https://urbanotopus.readthedocs.io/en/latest/development_guides/choice-management.html">Gestion des décisions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="https://urbanotopus.readthedocs.io/en/latest/development_guides/loading-scenes.html">Charger des scènes</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="https://urbanotopus.readthedocs.io/en/latest/deployment.html">Déploiement</a></li>
 <li class="toctree-l1"><a class="reference internal" href="https://urbanotopus.readthedocs.io/en/latest/resources.html">Ressources</a></li>
 </ul>
 </div><!-- End TOC -->
