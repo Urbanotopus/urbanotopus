@@ -11,14 +11,60 @@
     <script>
       var gameInstance = UnityLoader.instantiate("gameContainer", "Build/build.json", {onProgress: UnityProgress});
     </script>
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+      .header {
+        text-align: center;
+      }
+      .header > * {
+        margin: 2rem 0;
+      }
+      .header img {
+        margin: 0;
+      }
+      .header ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+      }
+      .header ul > li {
+        margin: 0 1rem;
+      }
+      .header ul a {
+        font-weight: bold;
+        text-decoration: none;
+        color: #41C5E5;
+      }
+      .header ul a:hover {
+        color: #008090;
+      }
+    </style>
   </head>
   <body>
     <div class="webgl-content">
+      <div class="header">
+        <img alt="Urbanotopus" src="https://raw.githubusercontent.com/Urbanotopus/urbanotopus/master/docs/sphinx_static/images/octopus.png" />
+        <h2>Fondez-vous dans l’histoire d’un urbaniste !</h2>
+        <ul>
+          <li>
+            <a href="https://urbanotopus.readthedocs.io/">
+              Documentation
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/Urbanotopus/urbanotopus/">
+              Code source
+            </a>
+          </li>
+        </ul>
+      </div>
       <div id="gameContainer" style="width: 960px; height: 600px"></div>
       <div class="footer">
         <div class="webgl-logo"></div>
         <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-        <div class="title">Urbanotopus</div>
+        <div class="title">Plein écran</div>
       </div>
     </div>
   </body>
