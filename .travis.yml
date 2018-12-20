@@ -8,6 +8,9 @@ addons:
   apt:
     packages:
       - doxygen
+  sonarcloud:
+    organization: "urbanotopus"
+    token: $SONAR_TOKEN
 
 cache:
   pip: true
@@ -76,6 +79,7 @@ script:
   - mkdir -p ${BUILD_PATH}
   - cp -Rv build/* $BUILD_PATH
   - cp -Rv docs/* $BUILD_PATH
+  - sonar-scanner
 
 before_cache:
   - >
